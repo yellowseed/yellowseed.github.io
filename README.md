@@ -1,4 +1,4 @@
-# vue-test-utils-jest-example
+# non-profit
 
 > Example project using Jest + vue-test-utils together
 
