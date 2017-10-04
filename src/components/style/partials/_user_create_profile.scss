@@ -1,0 +1,150 @@
+// for the user/create_profile and other user steps
+
+.signupContainer {
+  margin: 0;
+  @include mq($from: tablet) {
+    margin: 0 0 40px 0;
+  }
+
+  .fix-left {
+    padding-left: 6px;
+  }
+}
+
+#signupTab1 {
+  background: none;
+  margin: 0 5px 0 5px;
+  @include mq($from: desktop) {
+    background: url('https://www.yellow-seed.org/assets/signup1bg.jpg') no-repeat bottom right;
+    margin: 0;
+  }
+
+  &.second-pic {
+    @include mq($from: desktop) {
+      background: url('https://www.yellow-seed.org/assets/signup2bg.jpg') no-repeat bottom right;
+    }
+  }
+
+  .controls{
+    padding: 0;
+  }
+  label.control-label {
+    padding-right: 15px;
+  }
+  button.yellow-btn-caps {
+    padding-left: 0px;
+  }
+
+  .form-data {
+    padding: 0;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 11px;
+  }
+  .field-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 0;
+    color: #121212;
+    font-weight: 400;
+    display: block;
+    padding-top: 5px;
+  }
+  .yellow-drop {
+    margin-left: 0px;
+    width: 200px;
+    button {
+      margin-left: 0px;
+      width: 200px;
+    }
+  }
+  input[type=text] {
+    padding: 0 5px;
+    line-height: 29px;
+    height: 29px;
+    margin-bottom: 10px;
+  }
+  select {
+    border: 1px solid #f9c02e;
+    width: 200px;
+    padding: 0 5px;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.sign-up1 .tab-content{
+  padding: 0;
+}
+
+#signupTab2 {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 5px 0 5px;
+  @include mq($from: desktop) {
+    margin: 0;
+  }
+  h3 {
+    font-size: 16px;
+    color: #121212;
+  }
+  p {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .note-internal {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  p span {
+    font-weight: 400;
+    font-size: 11px;
+    display: block;
+  }
+  label {
+    font-weight: 400;
+    font-size: 11px;
+    display: block;
+    input[type=text] {
+      line-height: 30px;
+    }
+  }
+  select {
+    border: 1px solid #f9c02e;
+    width: 200px;
+    padding: 0 5px;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .yellow-drop {
+    width: 75px;
+    button {
+      width: 75px;
+    }
+  }
+  textarea {
+    border: 1px solid #e2e2e2;
+    resize: none;
+    display: block;
+    width: 70%;
+    height: 65px;
+  }
+}
+
+.third-tab {
+  border-left: 1px solid #e2e2e2 !important;
+}
+.padding-15 {
+  @media (max-width: 767px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

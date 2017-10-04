@@ -1,0 +1,21 @@
+.add-origin-background {
+  background: #EFEFEF;
+  margin-top: 38px;
+  margin-bottom: 30px;
+  height: 191px;
+
+  @media (min-width: 767px) and (max-width: 1199px) {
+    height: 160px;
+  }
+
+  #add-origin-story {
+    margin-top: 18%;
+  }
+}
+
+.delete-story {
+  position: absolute;
+  z-index: 100;
+  top: 9px;
+  right: 5%;
+}

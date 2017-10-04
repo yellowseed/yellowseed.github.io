@@ -1,0 +1,82 @@
+#pilot {
+
+  #link {
+    display: inline;
+    color: #39b6cd;
+    background:none!important;
+    border:none;
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .light-grey-background {
+    background-color: #fafafa;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  .size16 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .lato {
+    font-family:"Lato";
+  }
+
+  .progress {
+    border-radius: 30px;
+  }
+
+  .progress-bar-success {
+    background-color: #A4CB46;
+    border-radius: 3px;
+  }
+
+  .white-background {
+    background-color: white;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .big-btn {
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    color: #FFF;
+    background: #70706f;
+    font-family:"Lato";
+    font-size:18px;
+    font-weight: 700;
+  }
+
+  .donate-bigger {
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .donated-amount {
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  .share-btn {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    border: 1px solid #f9c02e;
+    color: black;
+    font-family:"Lato";
+    i {
+      color: #f9c02e;
+    }
+  }
+
+}

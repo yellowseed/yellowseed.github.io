@@ -1,0 +1,193 @@
+.user-profile-banner{
+  margin-top: 10px;
+  width: 100%;
+  height: 350px;
+  text-align:center;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size:44px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media (max-width: 767px) {
+    height: 420px;
+  }
+  &.product-host, &.origin-contact {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("origincontacts.jpg");
+
+  }
+  &.ambassador, &.taster {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("tasters.jpg");
+
+  }
+  &.default-banner {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("all_users.jpg");
+  }
+
+  .role-pill {
+    border-radius: 15px;
+    color: black;
+    padding: 0px 8px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    &.ambassador-ya, &.taster-ya {
+      border: 1px solid #f9c02e;
+      background-color: #f9c02e;
+      margin-right:10px;
+      margin-left: 10px;
+    }
+    &.origin-contact-ya {
+      border: 1px solid #A4CB46;
+      background-color: #A4CB46;
+    }
+    &.product-host-ya {
+      border: 1px solid #39b6cd;
+      background-color: #39b6cd;
+    }
+  }
+}
+.user-profile-avatar{
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+}
+.profile-container {
+  padding-top: 60px;
+  margin-top: -10px;
+}
+.profile-job{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.profile-location, .profile-review-count, .profile-listing-count{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  padding-left: 3px;
+  i {
+    color: #f9c02e;
+  }
+  img {
+    width: 13px;
+    height: 13px;
+    padding-right: 4px;
+  }
+}
+.profile-info{
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  span {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .icon-container{
+    display: inline-block;
+  }
+  img {
+    width: 34px;
+    height: 34px;
+    margin-top: -6px;
+  }
+}
+.profile-about{
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.yellow-count{
+  color: #f9c02e;
+  font-weight: 300;
+}
+.mini-product{
+  background-color: #f4f4f4;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: -15px;
+}
+.mini-product-header{
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  a {
+    color: #333333;
+  }
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+.location-mini{
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 120% !important;
+  @include mq($from: desktop) {
+    margin: 0;
+  }
+}
+.location-mini a{
+  color: #39b6cd;
+  &:hover {
+    color: #1d8a9e;
+    text-decoration: none;
+  }
+}
+.social-media-icon img{
+  width: 18px;
+  height: 18px;
+}
+.connect-text {
+  color: #666666;
+  font-size: 11px;
+  font-weight: 600;
+}
+.small-website-link{
+  font-size: 11px;
+  padding-left: 5px;
+}
+.display-none{
+  display: none;
+}
+.profile-edit-label{
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 6px;
+}
+.selectize-input > input {
+  background-color: #f9c02e !important;
+}
+.avatar-container{
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+}
+#edit-profile-modal, .signupContainer {
+  ::-webkit-input-placeholder {
+    font-size: 11px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 11px;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 11px;
+  }
+  :-ms-input-placeholder {
+    font-size: 11px;
+  }
+}
+
