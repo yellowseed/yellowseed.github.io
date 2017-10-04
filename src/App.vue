@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <navigation :brand="{title:'yellowseed',image:'https://www.yellow-seed.org/assets/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'}" :items="[{title:'Impact'}, {title:'Farmer'},{title:'Team'},{title:'Contact'},{title:'Donate'}]" />
+    <navigation :brand="{title:'yellowseed',image:'../../images/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'}" :items="[{title:'Impact'}, {title:'Farmer'},{title:'Team'},{title:'Contact'},{title:'Donate'}]" />
     <router-view></router-view>
 
   </div>

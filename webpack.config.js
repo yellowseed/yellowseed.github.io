@@ -1,19 +1,16 @@
 var path = require('path')
 var webpack = require('webpack')
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './docs'),
+    publicPath: '/',
     filename: 'build.js'
   },
   module: {
     rules: [
-            {
-        test: /\.(png|jpg)$/,
-        loader: 'url-loader'
-      },
       {
        test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
        use: [{
@@ -47,14 +44,35 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]?[hash]'
-        }
-      }
+              test: /\.(jpe?g|png|gif|svg)$/i,
+              loaders: ['file-loader?context=src/images&name=images/[name].[ext]', {
+                loader: 'image-webpack-loader',
+                query: {
+                  mozjpeg: {
+                    progressive: true,
+                  },
+                  gifsicle: {
+                    interlaced: false,
+                  },
+                  optipng: {
+                    optimizationLevel: 4,
+                  },
+                  pngquant: {
+                    quality: '75-90',
+                    speed: 3,
+                  },
+                },
+              }],
+              exclude: /node_modules/,
+              include: __dirname,
+            }
     ]
   },
+  plugins:[
+    new CopyWebpackPlugin([
+          {from:'src/images',to:'images'}
+      ])
+  ],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',

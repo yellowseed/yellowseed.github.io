@@ -4,7 +4,7 @@
     <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
     <b-navbar-brand class='ysLogo' href="#">
-        <img class='brand' alt='brand.title' src='https://www.yellow-seed.org/assets/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'/>
+        <img class='brand' alt='brand.title' src='../images/logo.svg'/>
     </b-navbar-brand>
 
     <b-collapse is-nav id="nav_collapse">

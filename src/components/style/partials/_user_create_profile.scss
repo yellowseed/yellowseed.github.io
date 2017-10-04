@@ -15,13 +15,13 @@
   background: none;
   margin: 0 5px 0 5px;
   @include mq($from: desktop) {
-    background: url('https://www.yellow-seed.org/assets/signup1bg.jpg') no-repeat bottom right;
+    background: url('../../images/signup1bg.jpg') no-repeat bottom right;
     margin: 0;
   }
 
   &.second-pic {
     @include mq($from: desktop) {
-      background: url('https://www.yellow-seed.org/assets/signup2bg.jpg') no-repeat bottom right;
+      background: url('../../images/signup2bg.jpg') no-repeat bottom right;
     }
   }
 
