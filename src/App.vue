@@ -16,7 +16,6 @@ export default {
     Navigation
   }
 }
-
 </script>
 
 <style>
@@ -31,5 +30,4 @@ export default {
 nav{
   backround-color:white!important;
 }
-
 </style>

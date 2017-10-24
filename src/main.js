@@ -26,6 +26,7 @@ const router = new VueRouter({
 })
 
 require('./sass/style.scss');
+require('./index.html');
 
 new Vue({
   router,
