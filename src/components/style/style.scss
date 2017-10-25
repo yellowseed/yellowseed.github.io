@@ -46,8 +46,14 @@ a:hover {
   color: #1d8a9e;
 }
 h1 {
+  font-size: 44px;
+  color: #f9c02e;
   font-family: 'SkitchShaded', sans-serif;
-  font-size: 56px;
+  padding-top: 150px;
+  @include mq($from: tablet) {
+    font-size: 56px;
+    padding-top: 200px;
+  }
 }
 h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
@@ -68,44 +74,18 @@ button {
   text-transform: uppercase;
 }
 
-// INDEX
-.homepage_banner h1, .how_it_works_banner h1, .impact-banner h1 {
-  font-family: 'SkitchShaded';
-  color: #f9c02e;
-  font-size: 46px;
-  padding-top: 150px;
-  @include mq($from: tablet) {
-    padding-top: 200px;
-    font-size: 56px;
-  }
-}
 
-.homepage_banner {
-  background: url('../images/homepage_banner.jpg') no-repeat center;
-  background-size: cover;
-  margin-top: 10px;
-  width: 100%;
-  height: 560px;
-  text-align: center;
-  p {
+.team_banner p,
+.services-banner p,
+.principles-banner p {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  padding: 0 20px 0 20px;
+  @include mq($from: tablet) {
     font-size: 22px;
   }
-  .oxc-brand {
-    margin-top: 50px;
-    p {
-      font-family: 'Lato', sans-serif;
-      font-size: 18px;
-    }
-    img {
-      height: 50px;
-      width: 100%;
-      background: url('../images/oxc-logo.svg') no-repeat center;
-      // background-size: cover;
-    }
-  }
 }
-
-
 
 
 
@@ -336,14 +316,14 @@ overflow: hidden;
 .topRightNav li:hover a,.topRightNav li.active:hover a{
   background: none;
 }
-.products_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 315px;
-  background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
-  background-size: cover;
-  text-align: center;
-}
+// .products_banner{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 315px;
+//   background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
+//   background-size: cover;
+//   text-align: center;
+// }
 .yellow-section{
   background-color: #f9c02e;
   height:380px;
@@ -4027,19 +4007,6 @@ h2.settings-header {
     }
   }
 }
-// .homepage_banner a{
-//   color: #121212;
-//   font-size: 16px;
-//   font-family: 'Lato Black';
-//   margin: 20px 10px 0px 10px;
-//   padding: 12px 40px;
-// }
-// .homepage_banner a:nth-child(3){
-//   background: #f9c02e;
-// }
-// .homepage_banner a:nth-child(4){
-//   background: #a4cd39;
-// }
 
 .homepage_banner1{
   margin-top: 30px;
@@ -4591,27 +4558,7 @@ a.twitter_icon_small{
     font-size: 56px;
   }
 }
-.buyingselling_banner p,
-.whatsnext_banner p,
-.profiles_banner p,
-.products_banner p,
-.origins_banner p,
-.about_banner p,
-.faq_banner p,
-.team_banner p,
-.how_it_works_banner p,
-// .homepage_banner p,
-.community-roles-banner p,
-.services-banner p,
-.principles-banner p {
-  color: #FFF;
-  font-size: 18px;
-  font-family: 'Open Sans',sans-serif;
-  padding: 0 20px 0 20px;
-  @include mq($from: tablet) {
-    font-size: 22px;
-  }
-}
+
 
 
 

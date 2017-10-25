@@ -305,6 +305,17 @@
     min-height: 560px;
     color: white;
 
+    h1 {
+      color: #f9c02e;
+      font-size: 44px;
+      font-family: 'SkitchShaded', sans-serif;
+      padding-top: 150px;
+      @include mq($from: tablet) {
+        font-size: 56px;
+        padding-top: 200px;
+      }
+    }
+
     h5 {
       color: #FFF;
       font-size: 21px;

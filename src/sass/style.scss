@@ -3,6 +3,8 @@
 @import "partials/_community.scss";
 @import "partials/_donate.scss";
 @import "partials/_theme.scss";
+@import "partials/_index.scss";
+
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,700,600);
@@ -32,25 +34,11 @@
 }
 
 .touch {
-  cursor: pointer
-}
-.twitter-typeahead {
-  width: 100%;
-}
-.field_with_errors {
-  display: inline;
+  cursor: pointer;
 }
 label.error {
   color: #cd4339 !important;
   line-height: 20px !important;
-}
-.field_with_errors .message {
-  text-align: left;
-  color: #cd4339;
-  // padding-left: 0;
-  font-size: 11px;
-  text-transform: none;
-  font-weight: 700;
 }
 body{
   font-family: 'Open Sans', sans-serif;
@@ -61,20 +49,19 @@ a {
 a:hover {
   color: #1d8a9e;
 }
+h1 {
+  font-family: 'SkitchShaded', sans-serif;
+}
+h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+h2 {
+  font-size: 44px;
+  font-weight: 500;
+}
 button {
   font-family: 'Lato', sans-serif;
 }
-
-
-h3 {
-  font-family: 'Lato', sans-serif;
-  // letter-spacing: -2px;
-}
-h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
-}
-
 .h4-all-caps {
   font-weight: 700;
   margin: 0px;
@@ -83,6 +70,60 @@ h2 {
   line-height: 40px;
   text-transform: uppercase;
 }
+
+.team_banner p, {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  padding: 0 20px 0 20px;
+  @include mq($from: tablet) {
+    font-size: 22px;
+  }
+}
+
+// BUTTONS
+
+.customYellowBtn {
+  color: #000;
+  background: #f9c02e;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  min-width: 200px;
+}
+
+// .green-btn {
+//   color: #1b1b1b !important;
+//   font-family: 'Lato', sans-serif;
+//   background: #a6c94f;
+//   font-weight: 800;
+//   font-size: 14px !important;
+//   margin-bottom: 10px;
+//   padding: 8px;
+//   color: #FFF;
+//   display: block;
+//   border-radius: 3px;
+//   text-align: center;
+//   line-height: 34px;
+//   width: 100%;
+//   text-transform: uppercase;
+//   text-decoration: none;
+//   cursor: pointer;
+//   font-size: 12px;
+//   border:1px solid #a6c94f;
+//   &.new {
+//     margin-top: 30px;
+//     width: 200px;
+//     margin-bottom: 50px;
+//     text-decoration: none !important;
+//   //  width: 240px;
+//   }
+//   &.yellow {
+//     background: #f9c02e;
+//     border:1px solid #f9c02e;
+//   }
+// }
 
 .table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
   border: none;
@@ -115,6 +156,9 @@ h2 {
 .lift-10px {
   margin-top:-10px;
 }
+
+// NAV
+
 .navbar {
   margin-bottom: 0px;
   @include mq($from: tablet) {
@@ -254,14 +298,14 @@ overflow: hidden;
 .topRightNav li:hover a,.topRightNav li.active:hover a{
   background: none;
 }
-.products_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 315px;
-  background: url('../images/products_banner.jpg') no-repeat center;
-  background-size: cover;
-  text-align: center;
-}
+// .products_banner{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 315px;
+//   background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
+//   background-size: cover;
+//   text-align: center;
+// }
 .yellow-section{
   background-color: #f9c02e;
   height:380px;
@@ -697,57 +741,6 @@ h3.originName{
   padding: 30px 0;
   margin-top: 60px;
 }
-.customYellowBtn{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  background: #f9c02e;
-  font-weight: 800;
-  font-size: 14px;
-  margin-bottom: 10px;
-  padding: 10px 20px;
-  min-width: 200px;
-}
-.customYellowBtn2{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  background: #f9c02e;
-  font-weight: 700;
-  font-size: 14px;
-  margin-bottom: 10px;
-  padding: 10px 20px;
-
-}
-.green-btn {
-  color: #1b1b1b !important;
-  font-family: 'Lato', sans-serif;
-  background: #a6c94f;
-  font-weight: 800;
-  font-size: 14px !important;
-  margin-bottom: 10px;
-  padding: 8px;
-  color: #FFF;
-  display: block;
-  border-radius: 3px;
-  text-align: center;
-  line-height: 34px;
-  width: 100%;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 12px;
-  border:1px solid #a6c94f;
-  &.new {
-    margin-top: 30px;
-    width: 200px;
-    margin-bottom: 50px;
-    text-decoration: none !important;
-  //  width: 240px;
-  }
-  &.yellow {
-    background: #f9c02e;
-    border:1px solid #f9c02e;
-  }
-}
 
 .product-approval{
   font-weight: 600;
@@ -898,7 +891,7 @@ h3.originName{
   margin-top: 10px;
   width: 100%;
   height: 315px;
-  background: url('../images/origins_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/origins_banner.jpg') no-repeat center;
   background-size: cover;
   text-align:center;
 }
@@ -906,7 +899,7 @@ h3.originName{
   margin-top: 10px;
   width: 100%;
   height: 315px;
-  background: url('../images/products_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
   background-size: cover;
   text-align:center;
 }
@@ -974,7 +967,7 @@ h3.originName{
   display: inline-block;
   width: 39px;
   height: 62px;
-  background: url('../images/carousel_arrows_white_left.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
   background-repeat: no-repeat;
   // position: absolute;
   top: 50%;
@@ -984,7 +977,7 @@ h3.originName{
   display: inline-block;
   width: 39px;
   height: 62px;
-  background: url('../images/carousel_arrows_white_right.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
   background-repeat: no-repeat;
   // position: absolute;
   top: 50%;
@@ -995,7 +988,7 @@ h3.originName{
   display: inline-block;
   width: 39px;
   height: 62px;
-  background: url('../images/carousel_arrows_white_left.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
   background-repeat: no-repeat;
   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
@@ -1007,7 +1000,7 @@ h3.originName{
   display: inline-block;
   width: 39px;
   height: 62px;
-  background: url('../images/carousel_arrows_white_right.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
   background-repeat: no-repeat;
   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
@@ -1074,14 +1067,14 @@ h3.originName{
   margin-top: 10px;
   width: 100%;
   height: 560px;
-  background: url('../images/map.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/map.jpg') no-repeat center;
   background-size: 100% 100%
 }
 #map1{
   margin-top: 10px;
   width: 100%;
   height: 560px;
-  background: url('../images/map1.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/map1.jpg') no-repeat center;
   background-size: 100% 100%
 }
 .noTopMargin{
@@ -1238,7 +1231,7 @@ h3.originName{
   display: inline-block;
   /*width: 112px;*/
   height: 18px;
-  background: url('../images/5stars.png');
+  background: url('https://www.yellow-seed.org/assets/5stars.png');
 }
 .rating1{width: 22px;}
 .rating2{width: 44px;}
@@ -1379,7 +1372,7 @@ h3.originName{
   position: relative;
 }
 .comment_triangle{
-  background: url('../images/comment_triangle.png');
+  background: url('https://www.yellow-seed.org/assets/comment_triangle.png');
   width: 12px;
   height: 17px;
   position: absolute;
@@ -1845,7 +1838,7 @@ h3.originName{
 }
 
 .star-rating .br-widget a {
-  background: url('../images/large_star.svg');
+  background: url('https://www.yellow-seed.org/assets/large_star.svg');
   width: 39px;
   height: 36px;
   margin-right: 5px;
@@ -1917,7 +1910,7 @@ input[type="radio"] + label span {
 
 input[type="radio"] + label span {
   /*background-color:#292321;*/
-  background: url('../images/radio.png') top;
+  background: url('https://www.yellow-seed.org/assets/radio.png') top;
 }
 
 input[type="radio"]{
@@ -1959,7 +1952,7 @@ input[type="checkbox"] + label span {
 
 input[type="checkbox"] + label span {
   /*background-color:#292321;*/
-  background: #FFF url('../images/checkbox.png') top;
+  background: #FFF url('https://www.yellow-seed.org/assets/checkbox.png') top;
 }
 
 input[type="checkbox"]:checked + label span{
@@ -3457,7 +3450,7 @@ h2.settings-header {
   margin-top: 10px;
   width: 100%;
   height: 550px;
-  background: url('../images/how-it-works-bg.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/how-it-works-bg.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -3561,12 +3554,12 @@ h2.settings-header {
   margin-top: -10px;
   width: 100%;
   height: 563px;
-  background: url('../images/donate-bg-small.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/donate-bg-small.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   position: relative;
   @include mq($from: tablet) {
-    background: url('../images/donate-bg-large.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/donate-bg-large.jpg') no-repeat center;
     height:563px;
   }
   h1{
@@ -3632,45 +3625,48 @@ h2.settings-header {
 
 .donation-level{
   margin-bottom: 20px;
-  &.img1{
+  @include mq($from: tablet) {
+    margin-bottom: 0px;
+  }
+  .img1{
     width: 100%;
     height: 223px;
-    background: url('../images/donation-level-1.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/donation-level-1.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
     border: 5px solid white;
   }
-  &.img2{
+  .img2{
     width: 100%;
     height: 223px;
-    background: url('../images/donation-level-2.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/donation-level-2.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
     border: 5px solid white;
   }
-  &.img3{
+  .img3{
     width: 100%;
     height: 223px;
-    background: url('../images/donation-level-3.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/donation-level-3.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
     border: 5px solid white;
   }
-  &.donate-white-box{
+  .donate-white-box{
     width: 100%;
     height: auto;
     padding: 0 20px 20px 20px;
     border: none;
     background: white;
 
-    &.dollar-amount{
+    .dollar-amount{
       font-family: 'Lato',sans-serif;
       font-weight: 900;
       color: #f9c02e;
       font-size: 44px;
       text-align: center;
     }
-    &.dollar-description{
+    .dollar-description{
       font-family: 'Open Sans',sans-serif;
       color: #1a1a1a;
       font-size: 17px;
@@ -3680,16 +3676,16 @@ h2.settings-header {
   }
 }
 .donate-budget{
-  &.budget-graph{
+  .budget-graph{
     width: 100%;
   }
-  &.h2{
+  h2{
     font-family: 'Lato', sans-serif;
     font-size: 44px;
     color: #f9c02e;
     font-weight: 400;
   }
-  &.ul {
+  ul {
     li {
       font-family: 'Open Sans',sans-serif;
       color: #f9c02e;
@@ -3701,7 +3697,7 @@ h2.settings-header {
       }
     }
   }
-  &.p{
+  p{
     font-family: 'Open Sans',sans-serif;
     color: #1a1a1a;
     font-size: 18px;
@@ -3710,42 +3706,42 @@ h2.settings-header {
   }
 }
 .donate-partnerships{
-  &.h2{
+  h2{
     font-family: 'Lato', sans-serif;
     font-size: 44px;
     color: #ffffff;
     font-weight: 400;
   }
-  &.p{
+  p{
     font-family: 'Open Sans',sans-serif;
     color: #1a1a1a;
     font-size: 18px;
     text-align: left;
     line-height: 160%;
   }
-  &.ul{
+  ul{
     list-style-type: none;
   }
-  &.a {
+  a {
     color: white;
     font-weight: 500;
   }
 }
 .donate-participate{
-  &.h2{
+  h2{
     font-family: 'Lato', sans-serif;
     font-size: 44px;
     color: #f9c02e;
     font-weight: 400;
   }
-  &.p{
+  p{
     font-family: 'Open Sans',sans-serif;
     color: #1a1a1a;
     font-size: 18px;
     text-align: left;
     line-height: 160%;
   }
-  &.a {
+  a {
     font-weight: 500;
   }
   .cacao-beans-container{
@@ -3753,7 +3749,7 @@ h2.settings-header {
     @include mq($from: desktop) {
       height: 240px;
     }
-    &.cacao-beans-pods{
+    .cacao-beans-pods{
       z-index: 1;
       position: relative;
       top: 0;
@@ -3777,15 +3773,15 @@ h2.settings-header {
   margin-top: -10px;
   width: 100%;
   height: 900px;
-  background: url('../images/contact-host.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/contact-host.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   position: relative;
   @include mq($from: tablet) {
-    background: url('../images/contact-host.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/contact-host.jpg') no-repeat center;
     height:563px;
   }
-  &.h1{
+  h1{
     font-family: 'SkitchShaded', sans-serif;
     padding-top: 60px;
     font-size: 46px;
@@ -3798,7 +3794,7 @@ h2.settings-header {
       padding-top: 200px;
     }
   }
-  &.p{
+  p{
     font-family: 'Open Sans',sans-serif;
     color: #FFF;
     padding: 0 20px 0 20px;
@@ -3808,7 +3804,7 @@ h2.settings-header {
       font-size: 20px;
     }
   }
-  &.role-descriptions{
+  .role-descriptions{
     position: absolute;
     bottom: 0;
     @include mq($from: tablet) {
@@ -3868,7 +3864,7 @@ h2.settings-header {
   .origin-contact-img{
     width: 100%;
     height: 450px;
-    background: url('../images/origin-contact.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/origin-contact.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     p{
@@ -3891,7 +3887,7 @@ h2.settings-header {
   .product-host-img{
     width: 100%;
     height: 450px;
-    background: url('../images/product-host.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/product-host.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     p{
@@ -3994,33 +3990,11 @@ h2.settings-header {
   }
 }
 
-.homepage_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 560px;
-  background: url('../images/homepage_banner.jpg') no-repeat center;
-  background-size: cover;
-  text-align: center;
-}
-.homepage_banner a{
-  color: #121212;
-  font-size: 16px;
-  font-family: 'Lato Black';
-  margin: 20px 10px 0px 10px;
-  padding: 12px 40px;
-}
-.homepage_banner a:nth-child(3){
-  background: #f9c02e;
-}
-.homepage_banner a:nth-child(4){
-  background: #a4cd39;
-}
-
 .homepage_banner1{
   margin-top: 30px;
   width: 100%;
   height: 560px;
-  background: url('../images/homepage_banner2.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/homepage_banner2.jpg') no-repeat center;
   background-size: cover;
   margin-bottom: 20px;
   .quote-container {
@@ -4085,7 +4059,7 @@ h2.settings-header {
   display: block;
   width: 100%;
   height: 450px;
-  background: url('../images/homepage_video.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/homepage_video.jpg') no-repeat center;
   background-size: cover;
 }
 .homepage_video_banner .playbtn{
@@ -4157,7 +4131,7 @@ h2.settings-header {
   display: inline-block;
   width: 29px;
   height: 51px;
-  background: url('../images/carousel_arrows_yellow_right.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_yellow_right.svg');
   top: 50%;
   margin-top: 70px;
 }
@@ -4165,7 +4139,7 @@ h2.settings-header {
   display: inline-block;
   width: 29px;
   height: 51px;
-  background: url('../images/carousel_arrows_yellow_left.svg');
+  background: url('https://www.yellow-seed.org/assets/carousel_arrows_yellow_left.svg');
   top: 50%;
   margin-top: 70px;
 }
@@ -4224,7 +4198,7 @@ h2.settings-header {
 .about_banner{
   width: 100%;
   height: 317px;
-  background: url('../images/about_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/about_banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   margin-top: 10px;
@@ -4267,7 +4241,7 @@ h2.settings-header {
   margin-top: 10px;
   width: 100%;
   height: 317px;
-  background: url('../images/faq_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/faq_banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -4283,7 +4257,7 @@ h2.settings-header {
   @include mq($from: tablet) {
     height: 317px;
   }
-  background: url('../images/buyingselling_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/buyingselling_banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -4294,7 +4268,7 @@ h2.settings-header {
   @include mq($from: tablet) {
     height: 317px;
   }
-  background: url('../images/whatsnext_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/whatsnext_banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -4302,9 +4276,9 @@ h2.settings-header {
   margin-top: 10px;
   width: 100%;
   height: 400px;
-  background: url('../images/profiles_banner_mobile.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/profiles_banner_mobile.jpg') no-repeat center;
   @include mq($from: tablet) {
-    background: url('../images/profiles_banner.jpg') no-repeat center;
+    background: url('https://www.yellow-seed.org/assets/profiles_banner.jpg') no-repeat center;
     height: 317px;
   }
   background-size: cover;
@@ -4322,7 +4296,7 @@ h2.settings-header {
   margin-top: 10px;
   width: 100%;
   height: 317px;
-  background: url('../images/team_banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/team_banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -4401,114 +4375,114 @@ h2.settings-header {
 }
 
 a.facebook_icon {
-  background: url('../images/facebook_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/facebook_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/facebook_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/facebook_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.twitter_icon {
-  background: url('../images/twitter_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/twitter_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/twitter_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/twitter_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.pinterest_icon {
-  background: url('../images/pinterest_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/pinterest_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/pinterest_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/pinterest_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.instagram_icon {
-  background: url('../images/instagram_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/instagram_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/instagram_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/instagram_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.vimeo_icon {
-  background: url('../images/vimeo_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/vimeo_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/vimeo_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/vimeo_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.linkedin_icon {
-  background: url('../images/linkedin_icon.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/linkedin_icon.svg') no-repeat center center;
   width: 42px;
   height: 42px;
   display: inline-block;
   &:hover {
-    background: url('../images/linkedin_icon_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/linkedin_icon_rollover.svg') no-repeat center center;
   }
 }
 
 a.linkedin_icon_yellow {
-  background: url('../images/team-icon-linkedin.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/team-icon-linkedin.svg') no-repeat center center;
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 a.email_icon_yellow {
-  background: url('../images/team-icon-email.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/team-icon-email.svg') no-repeat center center;
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 a.twitter_icon_yellow {
-  background: url('../images/team-icon-twitter.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/team-icon-twitter.svg') no-repeat center center;
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 a.instagram_icon_yellow {
-  background: url('../images/team-icon-instagram.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/team-icon-instagram.svg') no-repeat center center;
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 a.personalwebsite_icon_yellow {
-  background: url('../images/team-icon-personal.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/team-icon-personal.svg') no-repeat center center;
   width: 28px;
   height: 28px;
   display: inline-block;
 }
 
 a.facebook_icon_small{
-  background: url('../images/facebook_icon_16x16.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/facebook_icon_16x16.svg') no-repeat center center;
   width: 16px;
   height: 16px;
   display: inline-block;
   vertical-align: middle;
   &:hover {
-    background: url('../images/facebook_icon_16x16_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/facebook_icon_16x16_rollover.svg') no-repeat center center;
   }
 }
 a.twitter_icon_small{
-  background: url('../images/twitter_icon_16x16.svg') no-repeat center center;
+  background: url('https://www.yellow-seed.org/assets/twitter_icon_16x16.svg') no-repeat center center;
   width: 16px;
   height: 16px;
   display: inline-block;
   vertical-align: middle;
   &:hover {
-    background: url('../images/twitter_icon_16x16_rollover.svg') no-repeat center center;
+    background: url('https://www.yellow-seed.org/assets/twitter_icon_16x16_rollover.svg') no-repeat center center;
   }
 }
 .disabled {
@@ -4566,38 +4540,9 @@ a.twitter_icon_small{
     font-size: 56px;
   }
 }
-.buyingselling_banner p,
-.whatsnext_banner p,
-.profiles_banner p,
-.products_banner p,
-.origins_banner p,
-.about_banner p,
-.faq_banner p,
-.team_banner p,
-.how_it_works_banner p,
-.homepage_banner p,
-.community-roles-banner p,
-.services-banner p,
-.principles-banner p {
-  color: #FFF;
-  font-size: 18px;
-  font-family: 'Open Sans',sans-serif;
-  padding: 0 20px 0 20px;
-  @include mq($from: tablet) {
-    font-size: 22px;
-  }
-}
 
-.homepage_banner h1, .how_it_works_banner h1, .impact-banner h1 {
-  font-family: 'SkitchShaded';
-  color: #f9c02e;
-  font-size: 46px;
-  padding-top: 150px;
-  @include mq($from: tablet) {
-    padding-top: 200px;
-    font-size: 56px;
-  }
-}
+
+
 
 /*contact us page*/
 .contact-us-page label{
@@ -4653,7 +4598,7 @@ a.twitter_icon_small{
   margin-top: -10px;
   width: 100%;
   height: 384px;
-  background: url('../images/contact-banner.jpg') no-repeat center;
+  background: url('https://www.yellow-seed.org/assets/contact-banner.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
 }
@@ -4868,56 +4813,56 @@ a.twitter_icon_small{
   background-repeat: no-repeat;
 }
 .nav-add-product li a.basic-stats{
-  background-image: url('../images/basic_stats_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/basic_stats_icon.svg');
 }
 .nav-add-product li a.price-quantity{
-  background-image: url('../images/price_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/price_icon.svg');
 }
 .nav-add-product li a.sample-info{
-  background-image: url('../images/sample_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/sample_icon.svg');
 }
 .nav-add-product li a.contact-details{
-  background-image: url('../images/contact_details_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/contact_details_icon.svg');
 }
 .nav-add-product li a.processing-details{
-  background-image: url('../images/processing_details_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/processing_details_icon.svg');
 }
 .nav-add-product li a.shipping-availability{
-  background-image: url('../images/shipping_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/shipping_icon.svg');
 }
 .nav-add-product li a.photos{
-  background-image: url('../images/photo_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/photo_icon.svg');
 }
 .nav-add-product li a.flavor{
-  background-image: url('../images/flavor_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/flavor_icon.svg');
 }
 .nav-add-product li a.location{
-  background-image: url('../images/location_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/location_icon.svg');
 }
 .nav-add-product li a.size{
-  background-image: url('../images/size_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/size_icon.svg');
 }
 .nav-add-product li a.vision{
-  background-image: url('../images/vision_challenges_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/vision_challenges_icon.svg');
 }
 .nav-add-product li a.cut-test{
-  background-image: url('../images/cut_test_icon.svg');
+  background-image: url('https://www.yellow-seed.org/assets/cut_test_icon.svg');
 }
 .nav-add-product li.checked{
   background-repeat: no-repeat;
-  background-image: url('../images/check_mark.svg');
+  background-image: url('https://www.yellow-seed.org/assets/check_mark.svg');
   background-size: 20px 20px;
   background-position: 90% center;
 }
 .nav-add-product li.plus{
   background-repeat: no-repeat;
-  background-image: url('../images/plus.svg');
+  background-image: url('https://www.yellow-seed.org/assets/plus.svg');
   background-position: 90% center;
 }
 .nav-add-product li.invalid{
   background-size: 20px 20px;
   background-repeat: no-repeat;
-  background-image: url('../images/invalid.svg');
+  background-image: url('https://www.yellow-seed.org/assets/invalid.svg');
   background-position: 90% center;
 }
 
@@ -5137,7 +5082,7 @@ a.twitter_icon_small{
   font-size: 12px;
 }
 .datepicker{
-  background: url('../images/calendar.png') no-repeat 95% center;
+  background: url('https://www.yellow-seed.org/assets/calendar.png') no-repeat 95% center;
   cursor: pointer;
 }
 .borderGray{
@@ -5675,7 +5620,7 @@ input:invalid {
 }
 .checked-circle {
   border-radius: 50%;
-  background-image: url('../images/check_mark_white.svg');
+  background-image: url('https://www.yellow-seed.org/assets/check_mark_white.svg');
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -6572,19 +6517,6 @@ a.email-link-alone {
   padding-bottom: 20px;
 }
 
-.yellow-heading {
-  color: #f9c02e;
-  font-size: 44px;
-  font-weight: 400;
-  line-height: 50px;
-}
-
-.p-homepage {
-  line-height: 30px;
-  font-size: 18px;
-  color: #1a1a1a;
-  font-family: 'Open Sans', sans-serif;
-}
 
 ::-webkit-input-placeholder {
   font-size: 11px;
@@ -6605,4 +6537,7 @@ a.email-link-alone {
 .left0right3 {
   padding-left: 0;
   padding-right: 3px;
+}
+.bg-info{
+  background-color:white!important;
 }
