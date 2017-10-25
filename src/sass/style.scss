@@ -1,10 +1,9 @@
 @import "partials/_mq.scss";
+@import "partials/_index.scss";
 @import "partials/_pilot.scss";
 @import "partials/_community.scss";
 @import "partials/_donate.scss";
 @import "partials/_theme.scss";
-@import "partials/_index.scss";
-
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,700,600);
@@ -40,36 +39,44 @@ label.error {
   color: #cd4339 !important;
   line-height: 20px !important;
 }
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
 a {
   color: #39b6cd;
 }
+
 a:hover {
   color: #1d8a9e;
 }
+
 h1 {
   font-family: 'SkitchShaded', sans-serif;
 }
+
 h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
+
 h2 {
   font-size: 44px;
   font-weight: 500;
 }
+
 button {
   font-family: 'Lato', sans-serif;
 }
-.h4-all-caps {
-  font-weight: 700;
-  margin: 0px;
-  font-size: 16px;
-  color: #333333;
-  line-height: 40px;
-  text-transform: uppercase;
-}
+
+// .h4-all-caps {
+//   color: #333333;
+//   font-size: 16px;
+//   font-weight: 700;
+//   line-height: 40px;
+//   margin: 0px;
+//   text-transform: uppercase;
+// }
 
 .team_banner p, {
   color: #FFF;
@@ -92,38 +99,6 @@ button {
   padding: 10px 20px;
   min-width: 200px;
 }
-
-// .green-btn {
-//   color: #1b1b1b !important;
-//   font-family: 'Lato', sans-serif;
-//   background: #a6c94f;
-//   font-weight: 800;
-//   font-size: 14px !important;
-//   margin-bottom: 10px;
-//   padding: 8px;
-//   color: #FFF;
-//   display: block;
-//   border-radius: 3px;
-//   text-align: center;
-//   line-height: 34px;
-//   width: 100%;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   cursor: pointer;
-//   font-size: 12px;
-//   border:1px solid #a6c94f;
-//   &.new {
-//     margin-top: 30px;
-//     width: 200px;
-//     margin-bottom: 50px;
-//     text-decoration: none !important;
-//   //  width: 240px;
-//   }
-//   &.yellow {
-//     background: #f9c02e;
-//     border:1px solid #f9c02e;
-//   }
-// }
 
 .table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
   border: none;
@@ -3455,97 +3430,7 @@ h2.settings-header {
   text-align: center;
 }
 
-.yellowBg{
-  background: #f9c02e;
-}
-.howSection h2{
-  color: #FFF;
-  background: #f9c02e;
-  font-size: 30px;
-  font-family: 'Lato Black';
-  width: 65px;
-  height: 65px;
-  line-height: 65px;
-  text-align: center;
-  border-radius: 32px;
-  margin: 0px auto 0px;
-}
-.howSection {
-  .browse-products{
-    margin: 60px auto 0px;
-      @include mq($from: desktop) {
-      margin: 100px auto 80px;
-    }
-  }
-  .taste-beans{
-    margin: 20px auto 60px;
-      @include mq($from: tablet) {
-        margin: 20px auto 60px;
-    }
-      @include mq($from: desktop) {
-        margin: 140px auto 80px;
-    }
-  }
-  .provide-feedback{
-    margin: 60px auto 20px;
-      @include mq($from: desktop) {
-      margin: 140px auto 0px;
-    }
-  }
-}
 
-.howSection h3{
-  color: #f9c02e;
-  font-size: 44px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 50px;
-}
-.howSection h4{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: #333333;
-  text-align: center;
-}
-.howSection p{
-  line-height: 30px;
-  text-align: center;
-  font-size: 18px;
-  color: #1a1a1a;
-  font-family: 'Open Sans', sans-serif;
-}
-.howSection p.iWannaBe16{
-  font-size: 16px;
-}
-.howSection img.hands{
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-  @include mq($from: tablet) {
-    max-width: 500px;
-    width: 100%;
-  }
-  @include mq($from: desktop) {
-    max-width: none;
-    width: 100%;
-  }
-}
-
-.celebrate-section {
-  margin-top:40px;
-  @include mq($from: tablet) {
-    margin-top: 10px;
-  }
-}
-
-.yellowBg .howSection h2{
-  color: #f9c02e;
-  background: #FFF;
-}
-.yellowBg .howSection h3{
-  color: #FFF;
-}
 
 // –––––––––
 // DONATE PAGE
