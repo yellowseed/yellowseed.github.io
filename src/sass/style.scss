@@ -2,6 +2,7 @@
 @import "partials/_nav.scss";
 @import "partials/_footer.scss";
 @import "partials/_index.scss";
+@import "partials/_contact.scss";
 @import "partials/_pilot.scss";
 @import "partials/_community.scss";
 @import "partials/_donate.scss";
@@ -3790,25 +3791,25 @@ h2.settings-header {
   margin-top: 10px;
 }
 
-.about-content{
-  padding: 0px;
-}
-.about-content h2{
-  font-weight: 700;
-  font-size: 28px;
-  color: #333333;
-  margin: 0px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  font-family: "Lato", sans-serif;
-}
-.about-content p{
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  color: #1a1a1a;
-  line-height: 24px;
-  margin-bottom: 15px;
-}
+// .about-content{
+//   padding: 0px;
+// }
+// .about-content h2{
+//   font-weight: 700;
+//   font-size: 28px;
+//   color: #333333;
+//   margin: 0px;
+//   margin-top: 5px;
+//   margin-bottom: 15px;
+//   font-family: "Lato", sans-serif;
+// }
+// .about-content p{
+//   font-size: 14px;
+//   font-family: 'Open Sans', sans-serif;
+//   color: #1a1a1a;
+//   line-height: 24px;
+//   margin-bottom: 15px;
+// }
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
