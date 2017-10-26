@@ -1,3 +1,4 @@
+@import "partials/_master.scss";
 @import "partials/_mq.scss";
 @import "partials/_index.scss";
 @import "partials/_pilot.scss";
@@ -40,35 +41,7 @@ label.error {
   line-height: 20px !important;
 }
 
-body{
-  font-family: 'Open Sans', sans-serif;
-}
 
-a {
-  // color: #39b6cd !important;
-  color: red;
-}
-
-a:hover {
-  color: #1d8a9e;
-}
-
-h1 {
-  font-family: 'SkitchShaded', sans-serif;
-}
-
-h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
-}
-
-h2 {
-  font-size: 44px;
-  font-weight: 500;
-}
-
-button {
-  font-family: 'Lato', sans-serif;
-}
 
 // .h4-all-caps {
 //   color: #333333;
