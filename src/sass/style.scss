@@ -1,4 +1,6 @@
 @import "partials/_mq.scss";
+@import "partials/_nav.scss";
+@import "partials/_footer.scss";
 @import "partials/_index.scss";
 @import "partials/_pilot.scss";
 @import "partials/_community.scss";
@@ -248,44 +250,37 @@ button {
 .navbar-collapse.in {
 overflow: hidden;
 }
-.topRightNav{
-  margin-top: 8px;
-  font-size: 12px;
-}
-.topRightNav li a{
-  color: #666666;
-}
-.topRightNav li:hover a,.topRightNav li.active:hover a{
-  background: none;
-}
-// .products_banner{
-//   margin-top: 10px;
-//   width: 100%;
-//   height: 315px;
-//   background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
-//   background-size: cover;
-//   text-align: center;
+// .topRightNav{
+//   margin-top: 8px;
+//   font-size: 12px;
 // }
-.yellow-section{
-  background-color: #f9c02e;
-  height:380px;
-  margin-bottom: -60px;
-  padding: 60px 0;
-  text-align: center;
-  h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    @include mq($from: tablet) {
-      font-size: 36px;
-    }
-  }
-  p {
-    font-size: 18px;
-  }
-  @include mq($from: tablet) {
-    height: 320px;
-  }
-}
+// .topRightNav li a{
+//   color: #666666;
+// }
+// .topRightNav li:hover a,.topRightNav li.active:hover a{
+//   background: none;
+// }
+
+// .yellow-section{
+//   background-color: #f9c02e;
+//   height:380px;
+//   margin-bottom: -60px;
+//   padding: 60px 0;
+//   text-align: center;
+//   h1 {
+//     font-family: 'Lato', sans-serif;
+//     font-size: 30px;
+//     @include mq($from: tablet) {
+//       font-size: 36px;
+//     }
+//   }
+//   p {
+//     font-size: 18px;
+//   }
+//   @include mq($from: tablet) {
+//     height: 320px;
+//   }
+// }
 .topneg10{
   margin-top: -10px;
 }
@@ -301,38 +296,41 @@ overflow: hidden;
 .top0{
   margin-top: 0 !important;
 }
-.top5{
+.top5 {
   margin-top: 5px !important;
 }
-.top10{
+.top10 {
   margin-top: 10px;
 }
-.top15{
+.top15 {
   margin-top: 15px;
 }
-.top20{
+.top20 {
   margin-top: 20px !important;
 }
-.top30{
+.top30 {
   margin-top: 30px !important;
 }
-.top40{
+.top40 {
   margin-top: 40px;
 }
-.top50{
+.top50 {
   margin-top: 50px;
 }
-.top60{
+.top60 {
   margin-top: 60px;
 }
-.top70{
+.top70 {
   margin-top: 70px;
 }
-.top80{
+.top80 {
   margin-top: 80px;
 }
-.top90{
+.top90 {
   margin-top: 90px;
+}
+.top100 {
+  margin-top: 100px;
 }
 .topneg20{
   margin-top: -20px;
@@ -696,227 +694,108 @@ h3.originName{
   font-size: 13px;
 }
 
-.footer{
-  background: #efefef;
-  padding: 30px 0;
-  margin-top: 60px;
-}
-
-.product-approval{
-  font-weight: 600;
-  font-family: 'Lato', sans-serif;
-}
-
-.farm-origin-text{
-  font-size: 18px;
-  font-weight: 500;
-  padding-top: 3px;
-}
-
-.select-farm{
-  font-size: 28px;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 40px;
-}
-
-.name-origin{
-  display: block;
-  font-weight: 300;
-}
-.well.select_origin {
-    background:white;
-    padding:42px;
-    margin:auto;
-    margin-top:42px;
-    margin-bottom:1000px;
-}
-.footer p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-}
-.footer .col-md-3 p:nth-child(1){
-  font-weight: 700;
-  margin-bottom: 25px;
-  font-family: 'Lato', sans-serif;
-  color: #333333;
-  font-size: 16px;
-}
-.footerLink{
-  font-family: 'Open Sans', sans-serif;
-  color: #39b6cd;
-  font-size: 12px;
-  display: block;
-  line-height: 20px;
-}
-
-.customYellowBtnSmall{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  background: #f9c02e;
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 10px;
-  width: 80px;
-}
-.subscribeEmail{
-  background: transparent;
-  border: 1px solid #cccccc !important;
-  padding: 4px 5px;
-  position: relative;
-  top: -3px;
-}
-.subscribe-first{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-bottom: 0;
-  }
-}
-.subscribe-last{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-left: 5px;
-    margin-bottom: 0;
-  }
-}
-.hLine{
-  height: 1px;
-  background: #cccccc;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.hLine1{
-  height: 1px;
-  background: #cccccc;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.followUs{
-  font-weight: 700;
-  /*margin-bottom: 25px;*/
-  font-family: 'Open Sans', sans-serif;
-  color: #333333;
-  font-size: 15px !important;
-}
-::-webkit-input-placeholder { /* WebKit browsers */
-  color:    #333;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color:    #333;
-  opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color:    #333;
-  opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-  color:    #333;
-}
-.makeSweeter{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 400;
-}
-.makeSweeter input[type=number]{
-  width: 260px;
-  line-height: 22px;
-  background: transparent;
-  border: 1px solid #cccccc;
-  padding: 4px 5px;
-}
-.makeSweeter button{
-  position: relative;
-  top: 4px;
-}
-
-.make-sweeter {
-  width: 250px;
-  height: 31px;
-  padding-left: 10px;
-}
-
-.origins_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 315px;
-  background: url('https://www.yellow-seed.org/assets/origins_banner.jpg') no-repeat center;
-  background-size: cover;
-  text-align:center;
-}
-.profiles_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 315px;
-  background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
-  background-size: cover;
-  text-align:center;
-}
-.origin{
-  border: 1px solid #e2e2e2;
-  padding: 15px;
-  border-radius: 3px;
-}
-
-.originDescription p{
-  line-height: 10px;
-}
-.originDescription p:nth-child(1) a {
-  color: #39b6cd;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-top: 20px;
-  font-family: 'Lato', sans-serif;
-  &:hover {
-    text-decoration: none;
-    color: #1d8a9e;
-  }
-}
-.originDescription p:nth-child(2){
-  color: #666666;
-  font-size: 12px;
-}
-.originDescription p:nth-child(3){
-  color: #666666;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-.originDescription p:nth-child(4){
-  color: #333333;
-  font-weight: 600;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-.productionCapacity{
-  color: #1a1a1a;
-  font-size: 11px;
-  font-family: 'Open Sans', sans-serif;
-}
-.productionCapacity span{
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-}
-.loadMoreBtn{
-  font-size: 14px;
-  color: #121212;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  border: 1px solid #ffcc33;
-  border-radius: 3px;
-  line-height: 30px;
-}
+// .product-approval{
+//   font-weight: 600;
+//   font-family: 'Lato', sans-serif;
+// }
+//
+// .farm-origin-text{
+//   font-size: 18px;
+//   font-weight: 500;
+//   padding-top: 3px;
+// }
+//
+// .select-farm{
+//   font-size: 28px;
+//   font-weight: 700;
+//   font-family: 'Lato', sans-serif;
+//   margin-bottom: 40px;
+// }
+//
+// .name-origin{
+//   display: block;
+//   font-weight: 300;
+// }
+// .well.select_origin {
+//     background:white;
+//     padding:42px;
+//     margin:auto;
+//     margin-top:42px;
+//     margin-bottom:1000px;
+// }
+//
+//
+//
+// .origins_banner{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 315px;
+//   background: url('https://www.yellow-seed.org/assets/origins_banner.jpg') no-repeat center;
+//   background-size: cover;
+//   text-align:center;
+// }
+// .profiles_banner{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 315px;
+//   background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
+//   background-size: cover;
+//   text-align:center;
+// }
+// .origin{
+//   border: 1px solid #e2e2e2;
+//   padding: 15px;
+//   border-radius: 3px;
+// }
+//
+// .originDescription p{
+//   line-height: 10px;
+// }
+// .originDescription p:nth-child(1) a {
+//   color: #39b6cd;
+//   font-size: 20px;
+//   font-weight: 500;
+//   line-height: 20px;
+//   margin-top: 20px;
+//   font-family: 'Lato', sans-serif;
+//   &:hover {
+//     text-decoration: none;
+//     color: #1d8a9e;
+//   }
+// }
+// .originDescription p:nth-child(2){
+//   color: #666666;
+//   font-size: 12px;
+// }
+// .originDescription p:nth-child(3){
+//   color: #666666;
+//   font-size: 10px;
+//   font-family: 'Open Sans', sans-serif;
+// }
+// .originDescription p:nth-child(4){
+//   color: #333333;
+//   font-weight: 600;
+//   font-size: 10px;
+//   font-family: 'Open Sans', sans-serif;
+// }
+// .productionCapacity{
+//   color: #1a1a1a;
+//   font-size: 11px;
+//   font-family: 'Open Sans', sans-serif;
+// }
+// .productionCapacity span{
+//   font-family: 'Lato', sans-serif;
+//   font-weight: 900;
+// }
+// .loadMoreBtn{
+//   font-size: 14px;
+//   color: #121212;
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: 700;
+//   border: 1px solid #ffcc33;
+//   border-radius: 3px;
+//   line-height: 30px;
+// }
 .carousel-inner {
     width: auto;
 }

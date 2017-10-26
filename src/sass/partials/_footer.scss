@@ -1,0 +1,125 @@
+
+.footer{
+  background: #efefef;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+
+.footer p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.footer .col-md-3 p:nth-child(1){
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  font-size: 16px;
+}
+.footerLink{
+  font-family: 'Open Sans', sans-serif;
+  color: #39b6cd;
+  font-size: 12px;
+  display: block;
+  line-height: 20px;
+}
+
+.customYellowBtnSmall{
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  background: #f9c02e;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 10px;
+  width: 80px;
+}
+.subscribeEmail{
+  background: transparent;
+  border: 1px solid #cccccc !important;
+  padding: 4px 5px;
+  position: relative;
+  top: -3px;
+}
+.subscribe-first{
+  width: 119px;
+  @include mq($from: desktop) {
+    width: 160px;
+    margin-bottom: 5px;
+  }
+  @include mq($from: wide) {
+    width: 119px;
+    margin-bottom: 0;
+  }
+}
+.subscribe-last{
+  width: 119px;
+  @include mq($from: desktop) {
+    width: 160px;
+    margin-bottom: 5px;
+  }
+  @include mq($from: wide) {
+    width: 119px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+}
+.hLine{
+  height: 1px;
+  background: #cccccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hLine1{
+  height: 1px;
+  background: #cccccc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.followUs{
+  font-weight: 700;
+  /*margin-bottom: 25px;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  font-size: 15px !important;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #333;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #333;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #333;
+}
+.makeSweeter{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.makeSweeter input[type=number]{
+  width: 260px;
+  line-height: 22px;
+  background: transparent;
+  border: 1px solid #cccccc;
+  padding: 4px 5px;
+}
+.makeSweeter button{
+  position: relative;
+  top: 4px;
+}
+
+.make-sweeter {
+  width: 250px;
+  height: 31px;
+  padding-left: 10px;
+}
