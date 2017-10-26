@@ -2,7 +2,13 @@
 
   a {
     color: #68c9cd;
+
+    &:hover {
+      color: #1d8a9e;
+      text-decoration: none;
+    }
   }
+
 
   p {
     color: black;
@@ -31,7 +37,7 @@
     color: #1a1a1a;
     font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 24px;
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -58,7 +64,7 @@
     text-transform: uppercase;
 
     &:hover {
-      color: black;
+      color: white;
       text-decoration: none;
     }
   }
@@ -72,12 +78,32 @@
     }
   }
 
+  .btn-yellow-outline {
+    background: white;
+    border: 3px solid #f9c02e;
+    color: #121212;
+
+    &:hover {
+      color: #f9c02e;
+    }
+  }
+
+  .btn-small {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .homepage-banner {
     background: url('../images/homepage-banner.jpg') no-repeat center;
     background-size: cover;
     margin-top: 10px;
     width: 100%;
-    height: 560px;
+    height: 590px;
     text-align: center;
 
     h1 {
@@ -87,7 +113,7 @@
       padding-top: 150px;
       @include mq($from: tablet) {
         font-size: 56px;
-        padding-top: 200px;
+        padding-top: 170px;
       }
     }
 
@@ -95,6 +121,7 @@
       color: white;
       font-size: 18px;
       padding: 0 20px 0 20px;
+      text-shadow: 0px 0px 10px black;
       @include mq($from: tablet) {
         font-size: 22px;
       }
@@ -106,14 +133,12 @@
       p {
         font-family: 'Lato', sans-serif;
         font-size: 18px;
+        text-shadow: 0px 0px 10px black;
       }
 
       img {
         height: 50px;
         width: 410px;
-        background: url('../images/oxc-logo.svg') no-repeat center;
-        background-size: cover;
-        border: none;
       }
     }
   }
@@ -151,15 +176,50 @@
       font-weight: 300;
       line-height: 50px;
       text-align: center;
+      text-shadow: 0px 0px 10px black;
+      span {
+        font-weight: 500;
+      }
     }
   }
+
   .oxc-website {
     img {
       width: 666px;
       height: 481px;
-      background: url('../images/homepage-oxc-website.jpg') no-repeat center;
-      background-size: cover;
-      border: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .pilot-video {
+    iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .storytelling-section {
+    img {
+      width: 550px;
+      height: 367px;
+      margin: 30px 0 20px 0;
+    }
+    .header-links {
+      font-size: 28px;
+      font-family: 'Lato', sans-serif;
+      line-height: 35px;
+      text-align: center;
+    }
+
+    .small-paragraph {
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      text-align: left;
     }
   }
 }

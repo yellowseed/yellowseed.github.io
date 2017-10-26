@@ -1,4 +1,3 @@
-@import "partials/_master.scss";
 @import "partials/_mq.scss";
 @import "partials/_index.scss";
 @import "partials/_pilot.scss";
@@ -28,7 +27,6 @@
 }
 @font-face {
   font-family: 'Lato Black';
-
   src: url('fonts/Lato-Black.eot');
   src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Black.woff') format('woff'), url('fonts/Lato-Black.ttf') format('truetype'), url('fonts/Lato-Black.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -41,16 +39,29 @@ label.error {
   line-height: 20px !important;
 }
 
+a {
+  color: #39b6cd;
+}
 
+a:hover {
+  color: #1d8a9e;
+}
 
-// .h4-all-caps {
-//   color: #333333;
-//   font-size: 16px;
-//   font-weight: 700;
-//   line-height: 40px;
-//   margin: 0px;
-//   text-transform: uppercase;
-// }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'SkitchShaded', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+}
 
 .team_banner p, {
   color: #FFF;
