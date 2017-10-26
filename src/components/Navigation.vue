@@ -1,51 +1,27 @@
 <template>
-  <b-navbar toggleable="md" class='mainNav navbar' type="light" >
+<nav class="navbar navbar-toggleable-xs navbar-light bg-faded">
+  <a class="navbar-brand" href="#"><img src="/images/logo.svg"></img></a>
+  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <b-nav-toggle target="nav_collapse"></b-nav-toggle>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/impact">Impact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/farmer">Farmer Fund</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-    <b-navbar-brand class='ysLogo' href="#">
-        <img class='brand' alt='brand.title' src='../images/logo.svg'/>
-    </b-navbar-brand>
+</template>
 
-    <b-collapse is-nav id="nav_collapse">
-
-      <b-nav is-nav-bar>
-        <b-nav-item v-for="item in items" :key="item.title" @click="">
-          <router-link v-bind:to="item.title" class='nav main-nav-link'>
-            {{ item.title }}
-          </router-link>
-        </b-nav-item>
-      </b-nav>
-
-      <!-- Right aligned nav items -->
-      <b-nav is-nav-bar class="ml-auto">
-<!--
-        <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search"/>
-          <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-        </b-nav-form>
--->
-<!--        <b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-item-dropdown right>
-          <template slot="button-content">
-            <em>User</em>
-          </template>
-          <b-dropdown-item href="#">Profile</b-dropdown-item>
-          <b-dropdown-item href="#">Signout</b-dropdown-item>
-        -->
-        </b-nav-item-dropdown>
-      </b-nav>
-
-    </b-collapse>
-  </b-navbar>
-
-
-  </template>
 <script>
 export default {
   name: 'navigation',
