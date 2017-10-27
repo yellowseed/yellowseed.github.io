@@ -14,6 +14,10 @@
 
   .light-grey-background {
     background-color: #fafafa;
+    box-shadow: inset 0 15px 15px -10px rgba(0,0,0,0.2);
+    padding: 30px 0 30px 0;
+    margin-top: 10px;
+
   }
 
   strong {
@@ -26,7 +30,7 @@
   }
 
   .lato {
-    font-family:"Lato";
+    font-family: "Lato";
   }
 
   .progress {
@@ -42,8 +46,14 @@
     background-color: white;
   }
 
-  h1 {
+  h2 {
+    color: #333333 !important;
     font-size: 40px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 24px !important;
   }
 
   .big-btn {
