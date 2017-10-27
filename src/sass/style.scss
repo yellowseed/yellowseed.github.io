@@ -5,7 +5,7 @@
 @import "partials/_contact.scss";
 @import "partials/_team.scss";
 @import "partials/_pilot.scss";
-@import "partials/_community.scss";
+@import "partials/_impact.scss";
 @import "partials/_donate.scss";
 @import "partials/_theme.scss";
 
@@ -112,6 +112,16 @@
     width: 100%;
     background-size: cover;
     text-align: center;
+
+    p {
+      color: white;
+      font-size: 18px;
+      padding: 0 20px 0 20px;
+      text-shadow: 0px 0px 10px black;
+      @include mq($from: tablet) {
+        font-size: 22px;
+      }
+    }
   }
 }
 

@@ -14,16 +14,6 @@
         padding-top: 140px;
       }
     }
-
-    p {
-      color: white;
-      font-size: 18px;
-      padding: 0 20px 0 20px;
-      text-shadow: 0px 0px 10px black;
-      @include mq($from: tablet) {
-        font-size: 22px;
-      }
-    }
   }
 
   .contact-form {
