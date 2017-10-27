@@ -34,8 +34,3 @@ new Vue({
   render: h => h(App)
 
 });
-
-$('.nav-link').on('click', function () {
-  $('.active').removeClass('active');
-  $(this).addClass('active');
-});
