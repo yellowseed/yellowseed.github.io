@@ -3,6 +3,7 @@
 @import "partials/_footer.scss";
 @import "partials/_index.scss";
 @import "partials/_contact.scss";
+@import "partials/_team.scss";
 @import "partials/_pilot.scss";
 @import "partials/_community.scss";
 @import "partials/_donate.scss";
@@ -104,6 +105,13 @@
 
   li {
     font-family: "Open Sans", sans-serif;
+  }
+
+  .banner {
+    margin-top: 10px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
   }
 }
 
@@ -320,6 +328,9 @@ label.error {
 }
 .bottom50{
   margin-bottom: 50px;
+}
+.bottom60{
+  margin-bottom: 60px;
 }
 .width90{
   width: 90%;
@@ -3960,42 +3971,6 @@ h2.settings-header {
 //   color: #f5b923;
 //   text-transform: uppercase;
 //   font-size: 32px;
-// }
-// .staff-member{
-//   margin-bottom: 20px;
-// }
-// .staff-member .col-sm-3 img{
-//   border: 4px solid #efefef;
-//   border-radius: 100%;
-//   width: 100%;
-//   max-width: 200px;
-//   margin-bottom: 20px;
-// }
-// .staff-member .col-sm-9 h3{
-//   font-weight: 700;
-//   margin: 0px;
-//   font-size: 28px;
-//   color: #333333;
-// }
-// .staff-member .col-sm-9 h4{
-//   font-weight: 700;
-//   margin: 0px;
-//   font-size: 16px;
-//   color: #333333;
-//   line-height: 40px;
-// }
-// .staff-member .col-sm-9 h4 span{
-//   font-weight: 400;
-// }
-// .staff-member .col-sm-9 p{
-//   font-family: 'Open Sans', sans-serif;
-//   font-size: 14px;
-//   color: #000;
-//   line-height: 24px;
-// }
-// .staff-member .col-sm-9 a{
-//   display: inline-block;
-//   margin-right: 5px;
 // }
 //
 // .upload-photo {
