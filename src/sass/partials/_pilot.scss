@@ -15,7 +15,7 @@
   .light-grey-background {
     background-color: #fafafa;
     box-shadow: inset 0 15px 15px -10px rgba(0,0,0,0.2);
-    padding: 30px 0 30px 0;
+    padding: 50px 0 30px 0;
     margin-top: 10px;
 
   }
@@ -35,6 +35,11 @@
 
   .progress {
     border-radius: 30px;
+  }
+
+  .progress-bar {
+    background-color: #999999;
+    width: 100%;
   }
 
   .progress-bar-success {
@@ -57,14 +62,16 @@
   }
 
   .big-btn {
-    display: block;
-    width: 100%;
-    line-height: 35px;
-    color: #FFF;
     background: #70706f;
-    font-family:"Lato";
-    font-size:18px;
-    font-weight: 700;
+    color: #FFF !important;
+    display: block;
+    font-size: 18px;
+    font-weight: 700 !important;
+    line-height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
   }
 
   .donate-bigger {
@@ -78,15 +85,16 @@
   }
 
   .share-btn {
-    display: block;
-    width: 100%;
-    line-height: 30px;
     border: 1px solid #f9c02e;
     color: black;
-    font-family:"Lato";
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    width: 100%;
+
     i {
       color: #f9c02e;
     }
   }
-
 }
