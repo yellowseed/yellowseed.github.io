@@ -1,101 +1,11 @@
 #homepage {
 
-  a {
-    color: #68c9cd;
-
-    &:hover {
-      color: #1d8a9e;
-      text-decoration: none;
-    }
-  }
-
-
   p {
-    color: black;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
     text-align: center;
   }
 
-  h2 {
-    color: #f9c02e;
-    font-size: 44px;
-    font-family: 'Lato', sans-serif;
+  h2, h3, h4, h5 {
     text-align: center;
-  }
-
-  h3 {
-    color: #1a1a1a;
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  h4 {
-    color: #1a1a1a;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  h5 {
-    color: #1a1a1a;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .btn-default {
-    background: #f9c02e;
-    border-radius: 4px;
-    color: #121212;
-    font-size: 16px;
-    font-family: 'Lato Black';
-    font-weight: 700;
-    padding: 15px 40px;
-    text-transform: uppercase;
-
-    &:hover {
-      color: white;
-      text-decoration: none;
-    }
-  }
-
-  .btn-white-outline {
-    border: 3px solid white;
-    color: white;
-
-    &:hover {
-      color: #121212;
-    }
-  }
-
-  .btn-yellow-outline {
-    background: white;
-    border: 3px solid #f9c02e;
-    color: #121212;
-
-    &:hover {
-      color: #f9c02e;
-    }
-  }
-
-  .btn-small {
-    font-size: 14px;
-    padding: 10px 30px;
-  }
-
-  .btn-wrapper {
-    display: flex;
-    justify-content: center;
   }
 
   .homepage-banner {
@@ -143,13 +53,7 @@
     }
   }
 
-  .bg-yellow {
-    background: #f9c02e;
 
-    h2 {
-      color: white;
-    }
-  }
 
   .impact-icon {
     height: 80px;

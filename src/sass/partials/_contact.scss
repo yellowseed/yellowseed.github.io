@@ -1,49 +1,7 @@
 #contact {
 
-  a {
-    color: #68c9cd;
-
-    &:hover {
-      color: #1d8a9e;
-      text-decoration: none;
-    }
-  }
-
-  p {
-    color: black;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
-  }
-
   h3 {
-    color: #1a1a1a;
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
-  }
-
-  h4 {
-    color: #1a1a1a;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-  }
-
-  .btn-default {
-    background: #f9c02e;
-    border: 0px solid #f9c02e;
-    border-radius: 4px;
-    color: #121212;
-    font-size: 16px;
-    font-family: 'Lato Black';
-    font-weight: 700;
-    padding: 15px 40px;
-    text-transform: uppercase;
-    &:hover {
-      color: white;
-      text-decoration: none;
-    }
+    text-align: left;
   }
 
   .contact-banner {
@@ -55,13 +13,8 @@
     text-align: center;
 
     h1 {
-      color: #f9c02e;
-      font-size: 44px;
-      font-family: 'SkitchShaded', sans-serif;
       padding-top: 150px;
-      text-shadow: 0px 0px 30px black;
       @include mq($from: tablet) {
-        font-size: 56px;
         padding-top: 140px;
       }
     }
@@ -78,6 +31,7 @@
   }
 
   .contact-form {
+
     label {
       display: block;
       margin-top: 15px;
@@ -103,18 +57,22 @@
   }
 
   .contact-us-sidebar {
+
     ul {
       list-style: none;
     }
+
     li {
       font-family: 'Lato', sans-serif;
       font-size: 14px;
       margin-bottom: 10px;
     }
+
     i {
       font-size: 14px;
       color: #f9c02e;
     }
+
     a {
      color: #333;
      text-decoration: none;
