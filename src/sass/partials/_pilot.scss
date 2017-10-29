@@ -33,6 +33,10 @@
     font-family: "Lato";
   }
 
+  .fund-description {
+    font-size: 14px;
+  }
+
   .progress {
     border-radius: 30px;
   }
@@ -75,8 +79,9 @@
   }
 
   .donate-bigger {
+    color: white !important;
+    font-size: 14px;
     width: 100%;
-    line-height: 30px;
   }
 
   .donated-amount {
@@ -97,4 +102,26 @@
       color: #f9c02e;
     }
   }
+
+  .header-lg {
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  .header-md {
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+
+  .environmental-benefits {
+    max-width: 100%;
+    height: auto;
+  }
+
 }
