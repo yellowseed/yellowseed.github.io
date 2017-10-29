@@ -136,6 +136,7 @@
   font-weight: 700;
   padding: 15px 40px;
   text-transform: uppercase;
+
   &:hover {
     color: white;
     text-decoration: none;
@@ -538,15 +539,7 @@ label.error {
     font-size: 32px;
   }
 }
-h3.productName{
-  color: #39b6cd;
-  font-size: 32px;
-  font-weight: 500;
-}
-.productName a:hover {
-  text-decoration: none;
-  color: #1d8a9e !important;
-}
+
 h3.originName{
   color: #39b6cd;
   font-size: 32px;
@@ -581,31 +574,7 @@ h3.originName{
   font-weight: normal;
   margin-top: 5px;
 }
-.productCertification{
-  color: #333333;
-  font-size: 12px;
-  font-style: italic;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 10px;
-}
-.productAvailability{
-  color: #666666;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-.productDistance{
-  color: #030;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
 
-.productAmtAvailable{
-  color: #333333;
-  font-weight: 600;
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-}
 .item-origin{
   margin-bottom: 20px;
 }
@@ -618,17 +587,7 @@ h3.originName{
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
-.boxedPrice{
-  position: absolute;
-  bottom: 10px;
-  left: 15px;
-  width: 140px;
-  border: 1px solid #f9c02e;
-  background-color: #f9c02e;
-  color: black;
-  padding: 5px 8px;
-  font-size: 13px;
-}
+
 .boxedPriceSearch{
   position: absolute;
   top: 10px;
