@@ -1,1 +1,0 @@
-<a href='../images/Yellow_Seed_Overview_v12.pdf'>Overview</a>
