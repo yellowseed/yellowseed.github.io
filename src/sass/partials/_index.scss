@@ -18,7 +18,7 @@
   }
 
   .homepage-banner {
-    background: url('../images/homepage-banner1.jpg') no-repeat center;
+    background: url('../images/homepage-banner.jpg') no-repeat center;
     height: 700px;
     @include mq($from: tablet) {
       height: 650px;

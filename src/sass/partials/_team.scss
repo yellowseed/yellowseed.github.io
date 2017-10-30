@@ -10,21 +10,11 @@
         padding-top: 140px;
       }
     }
-
-    p {
-      color: white;
-      font-size: 18px;
-      padding: 0 20px 0 20px;
-      text-shadow: 0px 0px 10px black;
-      @include mq($from: tablet) {
-        font-size: 22px;
-      }
-    }
   }
 
-
   .staff-member {
-    margin: 40px 0 40px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
     img {
       border: 4px solid #efefef;
@@ -35,10 +25,10 @@
     }
 
     h3 {
+      color: #333333;
+      font-size: 32px;
       font-weight: 700;
       margin: 0px;
-      font-size: 32px;
-      color: #333333;
     }
 
     h4 {

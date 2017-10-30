@@ -6,16 +6,16 @@
 
   .donate-banner {
     background: url('../images/donate-bg-small.jpg') no-repeat center;
-    height: 563px;
+    height: 700px;
     position: relative;
 
     @include mq($from: tablet) {
       background: url('../images/donate-bg-large.jpg') no-repeat center;
-      height:563px;
+      height: 600px;
     }
 
     h1 {
-      padding-top: 150px;
+      padding-top: 250px;
       @include mq($from: mobile) {
         padding-top: 120px;
       }
