@@ -8,8 +8,17 @@
     text-align: center;
   }
 
+  .photo-credit {
+    color: grey;
+    font-size: 10px;
+    position: relative;
+    float: left;
+    bottom: 30px;
+    left: 10px;
+  }
+
   .homepage-banner {
-    background: url('../images/homepage-banner.jpg') no-repeat center;
+    background: url('../images/homepage-banner1.jpg') no-repeat center;
     height: 700px;
     @include mq($from: tablet) {
       height: 650px;

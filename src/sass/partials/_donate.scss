@@ -145,9 +145,13 @@
       li {
         font-family: 'Open Sans',sans-serif;
         color: #f9c02e;
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
         line-height: 160%;
+        @include mq($from: tablet) {
+          font-size: 18px;
+        }
+
         span {
           color: #1a1a1a;
         }
