@@ -1,102 +1,36 @@
 #homepage {
 
-  a {
-    color: #68c9cd;
-  }
-
   p {
-    color: black;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
     text-align: center;
   }
 
-  h2 {
-    color: #f9c02e;
-    font-size: 44px;
-    font-family: 'Lato', sans-serif;
+  h2, h3, h4, h5 {
     text-align: center;
   }
 
-  h3 {
-    color: #1a1a1a;
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  h4 {
-    color: #1a1a1a;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    margin-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  h5 {
-    color: #1a1a1a;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .btn-default {
-    background: #f9c02e;
-    border-radius: 4px;
-    color: #121212;
-    font-size: 16px;
-    font-family: 'Lato Black';
-    font-weight: 700;
-    padding: 15px 40px;
-    text-transform: uppercase;
-
-    &:hover {
-      color: black;
-      text-decoration: none;
-    }
-  }
-
-  .btn-white-outline {
-    border: 3px solid white;
-    color: white;
-
-    &:hover {
-      color: #121212;
-    }
+  .photo-credit {
+    color: grey;
+    font-size: 10px;
+    position: relative;
+    float: left;
+    bottom: 30px;
+    left: 10px;
   }
 
   .homepage-banner {
     background: url('../images/homepage-banner.jpg') no-repeat center;
-    background-size: cover;
-    margin-top: 10px;
-    width: 100%;
-    height: 560px;
-    text-align: center;
-
-    h1 {
-      color: #f9c02e;
-      font-size: 44px;
-      font-family: 'SkitchShaded', sans-serif;
-      padding-top: 150px;
-      @include mq($from: tablet) {
-        font-size: 56px;
-        padding-top: 200px;
-      }
+    height: 700px;
+    @include mq($from: tablet) {
+      height: 650px;
     }
 
-    p {
-      color: white;
-      font-size: 18px;
-      padding: 0 20px 0 20px;
+    h1 {
+      padding-top: 50px;
       @include mq($from: tablet) {
-        font-size: 22px;
+        padding-top: 100px;
+      }
+      @include mq($from: desktop) {
+        padding-top: 160px;
       }
     }
 
@@ -105,26 +39,20 @@
 
       p {
         font-family: 'Lato', sans-serif;
-        font-size: 18px;
+        font-size: 14px !important;
+        text-shadow: 0px 0px 10px black;
+        @include mq($from: tablet) {
+          font-size: 18px !important;
+        }
       }
 
       img {
-        height: 50px;
-        width: 410px;
-        background: url('../images/oxc-logo.svg') no-repeat center;
-        background-size: cover;
-        border: none;
+        height: 30px;
+        @include mq($from: tablet) {
+          height: 50px;
+        }
       }
     }
-  }
-
-  .bg-yellow {
-    background: #f9c02e;
-
-    h2 {
-      color: white;
-    }
-
   }
 
   .impact-icon {
@@ -132,6 +60,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    @include mq($from: tablet) {
+      margin-top: 0px;
+    }
   }
 
   .quote-container {
@@ -146,20 +78,55 @@
     p {
       color: white;
       font-family: 'Lato', sans-serif;
-      font-size: 36px;
+      font-size: 30px;
       font-style: italic;
       font-weight: 300;
       line-height: 50px;
       text-align: center;
+      text-shadow: 0px 0px 10px black;
+      @include mq($from: tablet) {
+        font-size: 36px;
+      }
+
+      span {
+        font-weight: 500;
+      }
     }
   }
+
   .oxc-website {
     img {
-      width: 666px;
-      height: 481px;
-      background: url('../images/homepage-oxc-website.jpg') no-repeat center;
-      background-size: cover;
-      border: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .pilot-video {
+    iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .storytelling-section {
+    img {
+      margin: 30px 0 20px 0;
+    }
+    .header-links {
+      font-size: 28px;
+      font-family: 'Lato', sans-serif;
+      line-height: 35px;
+      text-align: center;
+    }
+
+    .small-paragraph {
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      text-align: left;
     }
   }
 }

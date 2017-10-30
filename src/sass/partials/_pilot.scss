@@ -14,6 +14,10 @@
 
   .light-grey-background {
     background-color: #fafafa;
+    box-shadow: inset 0 15px 15px -10px rgba(0,0,0,0.2);
+    padding: 50px 0 30px 0;
+    margin-top: 10px;
+
   }
 
   strong {
@@ -23,14 +27,29 @@
   .size16 {
     font-size: 16px;
     line-height: 26px;
+    margin-top: 20px;
   }
 
   .lato {
-    font-family:"Lato";
+    font-family: "Lato";
+  }
+
+  .impact-icon {
+    height: 90px;
+    padding-top: 15px;
+  }
+
+  .caption {
+    font-size: 14px;
   }
 
   .progress {
     border-radius: 30px;
+  }
+
+  .progress-bar {
+    background-color: #999999;
+    width: 100%;
   }
 
   .progress-bar-success {
@@ -42,24 +61,33 @@
     background-color: white;
   }
 
-  h1 {
+  h2 {
+    color: #333333 !important;
     font-size: 40px;
-  }
-
-  .big-btn {
-    display: block;
-    width: 100%;
-    line-height: 35px;
-    color: #FFF;
-    background: #70706f;
-    font-family:"Lato";
-    font-size:18px;
     font-weight: 700;
   }
 
-  .donate-bigger {
+  h3 {
+    font-size: 24px !important;
+  }
+
+  .big-btn {
+    background: #70706f;
+    color: #FFF !important;
+    display: block;
+    font-size: 18px;
+    font-weight: 700 !important;
+    line-height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
     width: 100%;
-    line-height: 30px;
+  }
+
+  .donate-bigger {
+    color: white !important;
+    font-size: 14px;
+    width: 100%;
   }
 
   .donated-amount {
@@ -68,15 +96,85 @@
   }
 
   .share-btn {
-    display: block;
-    width: 100%;
-    line-height: 30px;
     border: 1px solid #f9c02e;
+    border-radius: 4px;
     color: black;
-    font-family:"Lato";
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+
+    &:hover {
+      color: #f9c02e;
+    }
+
     i {
       color: #f9c02e;
     }
   }
 
+  .header-lg {
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .product-details {
+
+    .boxed-price {
+      border: 1px solid #f9c02e;
+      background-color: #f9c02e;
+      color: black;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      position: absolute;
+      // bottom: 10px;
+      left: 15px;
+      padding: 5px 8px;
+      width: 140px;
+    }
+
+    .product-name {
+      color: #39b6cd;
+      font-family: "Lato", sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 120%;
+
+      &:hover {
+        text-decoration: none;
+        color: #1d8a9e !important;
+      }
+    }
+
+    .product-certification {
+      color: #333333;
+      font-size: 12px;
+      font-style: italic;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 10px;
+    }
+
+    .product-availability {
+      color: #666666;
+      font-size: 11px;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 7px;
+    }
+
+    .product-amt-available {
+      color: #333333;
+      font-weight: 600;
+      font-size: 11px;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+
+    .product-description {
+    }
+  }
 }
