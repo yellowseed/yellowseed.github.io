@@ -836,18 +836,18 @@ label.error {
 // .noTopMargin{
 //   margin-top: 0px;
 // }
-.glyphicon.spinning {
-    animation: spin 1s infinite linear;
-    -webkit-animation: spin2 1s infinite linear;
-}
-@keyframes spin {
-    from { transform: scale(1) rotate(0deg); }
-    to { transform: scale(1) rotate(360deg); }
-}
-
-@-webkit-keyframes spin2 {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+// .glyphicon.spinning {
+//     animation: spin 1s infinite linear;
+//     -webkit-animation: spin2 1s infinite linear;
+// }
+// @keyframes spin {
+//     from { transform: scale(1) rotate(0deg); }
+//     to { transform: scale(1) rotate(360deg); }
+// }
+//
+// @-webkit-keyframes spin2 {
+//     from { -webkit-transform: rotate(0deg); }
+//     to { -webkit-transform: rotate(360deg); }
 // }
 // .marginRight20{margin-right: 20px;}
 // .product-sidebar{
@@ -2789,379 +2789,379 @@ p.mailSubject{
 	float: right;
 }*/
 
-.mailMessage{
-  border: none;
-  background: transparent;
-  font-family: 'Open Sans', sans-serif;
-  color: #1a1a1a;
-  font-size: 12px;
-  margin: 20px;
-  border-radius: 0px;
-  white-space: pre-wrap;       /* CSS 3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-break: keep-all;       /* Internet Explorer 5.5+ */
-
-  /*border-bottom: 1px solid #e2e2e2;*/
-}
-
-.attachmentBox{
-  border-top: 1px solid #e2e2e2;
-  padding-top: 20px;
-  margin: 20px 39px 20px 20px;
-  /*padding-bottom: 20px;*/
-  border-bottom: 1px solid #e2e2e2;
-}
-.attachmentDownloadAll{
-  border-color: #f9c02e;
-  margin-right: 20px;
-}
-.attachmentCount{
-  font-weight: 700;
-  color: #1a1a1a;
-  font-size: 14px;
-}
-.attachmentThumb img{
-  border: 1px solid #f9c02e;
-  border-radius: 3px;
-}
-.attachmentName{
-  padding-top: 12px;
-  font-family: 'Open Sans', sans-serif;
-  color: #121212;
-  font-size: 12px;
-  padding-left: 15px;
-  margin: 0px;
-  line-height: 24px;
-}
-.attachmentInfo{
-  font-family: 'Open Sans', sans-serif;
-  color: #666666;
-  font-size: 10px;
-  padding-left: 15px;
-}
-.attachmentInfo a{
-  font-family: 'Open Sans', sans-serif;
-  color: #39b6cd;
-  font-weight: 700;
-  font-size: 11px;
-  padding-left: 15px;
-}
-.attachmentItem{
-  margin-bottom: 20px;
-}
-#reply-form {
-  display: none;
-}
-.typeBoxReply{
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e2e2e2;
-}
-.typeBoxReply textarea{
-  border: 1px solid #e2e2e2;
-  width: 100%;
-  padding: 15px;
-  height: 90px;
-  display: block;
-}
-.searchBoxMail button{
-  border: 1px solid #e2e2e2;
-  border-left:none;
-  border-radius: 0px;
-  background: transparent;
-  height: 40px;
-}
-.searchBoxMail input{
-  border: 1px solid #e2e2e2;
-  border-right:none;
-  border-radius: 0px;
-  box-shadow: none;
-  line-height: 40px;
-  height: 40px;
-  font-family: 'Open Sans', sans-serif;
-  color: #1a1a1a;
-  font-size: 11px;
-}
-.searchBoxMail input:focus{
-  outline: none;
-  border-color: #e2e2e2;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.leftMail .tab-content{
-  padding:0px;
-}
-.leftMail .tab-content .searchBoxMail{
-  padding: 20px;
-  border-bottom: 1px solid #e2e2e2;
-}
-
-.msgFrom{
-  font-weight: 700;
-  color: #39b6cd;
-  font-size: 14px;
-}
-.msgDate{
-  color: #666666;
-  font-size: 10px;
-}
-.msgContent{
-   margin-top: 5px;
-   color: #1a1a1a;
-   font-size: 11px;
-   font-family: 'Open Sans', sans-serif;
- }
-.messageItem{
-  margin: 0px;
-  padding: 15px 10px;
-  border-bottom: 1px solid #e2e2e2;
-  .msgSubject {
-    font-weight: bold;
-  }
-}
-.messageRead {
-  background-color: #f6f6f6;
-  .msgFrom{
-    font-weight:normal;
-  }
-  .msgSubject {
-    font-weight: normal;
-  }
-}
-.selectedMail {
-  background: #e1e1e1;
-  cursor: pointer;
-}
-.messageItem:hover{
-  background: #e1e1e1;
-  cursor: pointer;
-}
-.relative{
-  position: relative;
-}
-.hasAttachment{
-  position: absolute;
-  right: 32px;
-  top:36px;
-}
-.mailCheckbox{
-  margin-top: 10px;
-}
-.messageItem {
-  padding: 15px 15px;
-}
-.checkedMail,.checkedMail:hover{
-  background: #fde5a7;
-}
-
-.nav-settings>li>a {
-  color: #333333;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
-  @include mq($from: mobile) {
-    font-size: 16px;
-  }
-  /*width: 90%;*/
-}
-.nav-settings>li.active>a, .nav-settings>li>a:hover,.nav-settings>li.active>a:hover, .nav-settings>li.active>a:focus{
-  background: #efefef;
-  color: #222222;
-  border-radius: 0px;
-  position: relative;
-}
-.nav-settings>li.active>a span, .nav-settings>li.active>a:hover span,.nav-settings>li>a:hover span, .nav-settings>li.active>a:focus span{
-  width: 0;
-  height: 0;
-  border-style: none;
-  border-width: 22px 0 21px 21px;
-  border-color: none;
-  /*display: inline-block;*/
-  /*float: right;*/
-  position: absolute;
-  right:-21px;
-  top:0px;
-  @include mq($from: tablet) {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 22px 0 21px 21px;
-    border-color: transparent transparent transparent #efefef;
-    /*display: inline-block;*/
-    /*float: right;*/
-    position: absolute;
-    right:-21px;
-    top:0px;
-  }
-}
-
-.settings-content{
-  padding: 0px;
-}
-h2.settings-header {
-  font-weight: 700;
-  font-size: 28px;
-  color: #333333;
-  margin: 30px 0;
-  margin-bottom: 30px;
-  @include mq($from: tablet) {
-    margin-top: 0;
-  }
-}
-.settingsBox{
-  padding: 30px 20px;
-  border: 1px solid #e2e2e2;
-  border-radius: 3px;
-}
-.settingsBox h3{
-  margin: 0px;
-  color: #121212;
-  font-weight: 700;
-  font-size: 21px;
-  padding-bottom: 20px
-}
-.settingsBoxLeft p,.emailNotificationP{
-  text-align: right;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  color: #121212;
-  padding-top: 14px;
-  // line-height: 31px;
-  p {
-
-  }
-}
-.left-mobile{
-  text-align: left !important;
-  @include mq($from: desktop) {
-    text-align: right !important;
-  }
-}
-.left-mobile2{
-  text-align: left !important;
-  padding-left: 15px;
-  @include mq($from: desktop) {
-    text-align: right !important;
-    padding-left: 0;
-  }
-}
-.marg-mobile{
-  margin-top: -8px;
-  @include mq($from: desktop) {
-    margin-top: 0;
-  }
-}
-.marg-mobile2{
-  @include mq($until: desktop) {
-    margin-top: 1px;
-  }
-}
-.settings-left{
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  color: #121212;
-  line-height: 31px;
-  @include mq($from: tablet) {
-    text-align: right;
-  }
-}
-.emailNotificationP{
-  text-align: left;
-  line-height: 24px;
-}
-.settingsBoxRight p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  color: #666666;
-  line-height: 31px;
-}
-.settingsBoxRight select {
-  border: 1px solid #f9c02e;
-  width: 200px;
-  padding: 0 5px;
-  line-height: 30px;
-  height: 30px;
-  margin-bottom: 10px;
-}
-.deactivateLink,.forgotMyPass{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 12px;
-  margin-top: 20px;
-  display: block;
-  color: #39b6cd;
-}
-.settingsBoxRight .forgotMyPass{
-  font-size: 10px;
-  margin: 0px;
-}
-.settingsBoxRight input[type=text],
-.settingsBoxRight input[type=password] {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 11px;
-  color: #666666;
-  border: 1px solid #e2e2e2;
-  line-height: 30px;
-  padding: 0 5px;
-  margin-bottom: 10px;
-  @include mq($from: tablet) {
-    width: 220px;
-  }
-}
-.settingsPreferencesEdit .btn{
-  display: block;
-  margin-bottom: 10px;
-  padding: 0px;
-  width: 80px;
-  text-align: center;
-  line-height: 29px;
-}
-.settingsPreferencesEdit .btn:nth-child(4){
-  margin-bottom: 57px;
-}
-.settingsBoxRight textarea{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 11px;
-  color: #666666;
-  border: 1px solid #e2e2e2;
-  resize:none;
-  line-height: 20px;
-  width: 100%;
-  height: 95px;
-  padding: 10px;
-  margin-top: 10px;
-}
-.settingsBoxRight .yellow-drop{
-  margin-left: 0px;
-  width: 75px;
-}
-.save-settings-btn{
-  background: #A5CD39;
-}
-
-.tons-dropdown{
-  width: 100%;
-}
-.tons-dropdown .btn{
-  width: 100%;
-  text-align: left;
-  padding-left: 10px;
-}
-.hideMe{
-  display: none;
-}
-.fontWeightNormal{
-  font-weight: normal !important;
-}
+// .mailMessage{
+//   border: none;
+//   background: transparent;
+//   font-family: 'Open Sans', sans-serif;
+//   color: #1a1a1a;
+//   font-size: 12px;
+//   margin: 20px;
+//   border-radius: 0px;
+//   white-space: pre-wrap;       /* CSS 3 */
+//   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+//   white-space: -pre-wrap;      /* Opera 4-6 */
+//   white-space: -o-pre-wrap;    /* Opera 7 */
+//   word-break: keep-all;       /* Internet Explorer 5.5+ */
+//
+//   /*border-bottom: 1px solid #e2e2e2;*/
+// }
+//
+// .attachmentBox{
+//   border-top: 1px solid #e2e2e2;
+//   padding-top: 20px;
+//   margin: 20px 39px 20px 20px;
+//   /*padding-bottom: 20px;*/
+//   border-bottom: 1px solid #e2e2e2;
+// }
+// .attachmentDownloadAll{
+//   border-color: #f9c02e;
+//   margin-right: 20px;
+// }
+// .attachmentCount{
+//   font-weight: 700;
+//   color: #1a1a1a;
+//   font-size: 14px;
+// }
+// .attachmentThumb img{
+//   border: 1px solid #f9c02e;
+//   border-radius: 3px;
+// }
+// .attachmentName{
+//   padding-top: 12px;
+//   font-family: 'Open Sans', sans-serif;
+//   color: #121212;
+//   font-size: 12px;
+//   padding-left: 15px;
+//   margin: 0px;
+//   line-height: 24px;
+// }
+// .attachmentInfo{
+//   font-family: 'Open Sans', sans-serif;
+//   color: #666666;
+//   font-size: 10px;
+//   padding-left: 15px;
+// }
+// .attachmentInfo a{
+//   font-family: 'Open Sans', sans-serif;
+//   color: #39b6cd;
+//   font-weight: 700;
+//   font-size: 11px;
+//   padding-left: 15px;
+// }
+// .attachmentItem{
+//   margin-bottom: 20px;
+// }
+// #reply-form {
+//   display: none;
+// }
+// .typeBoxReply{
+//   margin-top: 20px;
+//   margin-left: 20px;
+//   margin-right: 20px;
+//   padding-bottom: 20px;
+//   border-bottom: 1px solid #e2e2e2;
+// }
+// .typeBoxReply textarea{
+//   border: 1px solid #e2e2e2;
+//   width: 100%;
+//   padding: 15px;
+//   height: 90px;
+//   display: block;
+// }
+// .searchBoxMail button{
+//   border: 1px solid #e2e2e2;
+//   border-left:none;
+//   border-radius: 0px;
+//   background: transparent;
+//   height: 40px;
+// }
+// .searchBoxMail input{
+//   border: 1px solid #e2e2e2;
+//   border-right:none;
+//   border-radius: 0px;
+//   box-shadow: none;
+//   line-height: 40px;
+//   height: 40px;
+//   font-family: 'Open Sans', sans-serif;
+//   color: #1a1a1a;
+//   font-size: 11px;
+// }
+// .searchBoxMail input:focus{
+//   outline: none;
+//   border-color: #e2e2e2;
+//   -webkit-box-shadow: none;
+//   box-shadow: none;
+// }
+// .leftMail .tab-content{
+//   padding:0px;
+// }
+// .leftMail .tab-content .searchBoxMail{
+//   padding: 20px;
+//   border-bottom: 1px solid #e2e2e2;
+// }
+//
+// .msgFrom{
+//   font-weight: 700;
+//   color: #39b6cd;
+//   font-size: 14px;
+// }
+// .msgDate{
+//   color: #666666;
+//   font-size: 10px;
+// }
+// .msgContent{
+//    margin-top: 5px;
+//    color: #1a1a1a;
+//    font-size: 11px;
+//    font-family: 'Open Sans', sans-serif;
+//  }
+// .messageItem{
+//   margin: 0px;
+//   padding: 15px 10px;
+//   border-bottom: 1px solid #e2e2e2;
+//   .msgSubject {
+//     font-weight: bold;
+//   }
+// }
+// .messageRead {
+//   background-color: #f6f6f6;
+//   .msgFrom{
+//     font-weight:normal;
+//   }
+//   .msgSubject {
+//     font-weight: normal;
+//   }
+// }
+// .selectedMail {
+//   background: #e1e1e1;
+//   cursor: pointer;
+// }
+// .messageItem:hover{
+//   background: #e1e1e1;
+//   cursor: pointer;
+// }
+// .relative{
+//   position: relative;
+// }
+// .hasAttachment{
+//   position: absolute;
+//   right: 32px;
+//   top:36px;
+// }
+// .mailCheckbox{
+//   margin-top: 10px;
+// }
+// .messageItem {
+//   padding: 15px 15px;
+// }
+// .checkedMail,.checkedMail:hover{
+//   background: #fde5a7;
+// }
+//
+// .nav-settings>li>a {
+//   color: #333333;
+//   font-size: 14px;
+//   font-weight: 700;
+//   font-family: 'Lato', sans-serif;
+//   @include mq($from: mobile) {
+//     font-size: 16px;
+//   }
+//   /*width: 90%;*/
+// }
+// .nav-settings>li.active>a, .nav-settings>li>a:hover,.nav-settings>li.active>a:hover, .nav-settings>li.active>a:focus{
+//   background: #efefef;
+//   color: #222222;
+//   border-radius: 0px;
+//   position: relative;
+// }
+// .nav-settings>li.active>a span, .nav-settings>li.active>a:hover span,.nav-settings>li>a:hover span, .nav-settings>li.active>a:focus span{
+//   width: 0;
+//   height: 0;
+//   border-style: none;
+//   border-width: 22px 0 21px 21px;
+//   border-color: none;
+//   /*display: inline-block;*/
+//   /*float: right;*/
+//   position: absolute;
+//   right:-21px;
+//   top:0px;
+//   @include mq($from: tablet) {
+//     width: 0;
+//     height: 0;
+//     border-style: solid;
+//     border-width: 22px 0 21px 21px;
+//     border-color: transparent transparent transparent #efefef;
+//     /*display: inline-block;*/
+//     /*float: right;*/
+//     position: absolute;
+//     right:-21px;
+//     top:0px;
+//   }
+// }
+//
+// .settings-content{
+//   padding: 0px;
+// }
+// h2.settings-header {
+//   font-weight: 700;
+//   font-size: 28px;
+//   color: #333333;
+//   margin: 30px 0;
+//   margin-bottom: 30px;
+//   @include mq($from: tablet) {
+//     margin-top: 0;
+//   }
+// }
+// .settingsBox{
+//   padding: 30px 20px;
+//   border: 1px solid #e2e2e2;
+//   border-radius: 3px;
+// }
+// .settingsBox h3{
+//   margin: 0px;
+//   color: #121212;
+//   font-weight: 700;
+//   font-size: 21px;
+//   padding-bottom: 20px
+// }
+// .settingsBoxLeft p,.emailNotificationP{
+//   text-align: right;
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 12px;
+//   font-weight: 700;
+//   color: #121212;
+//   padding-top: 14px;
+//   // line-height: 31px;
+//   p {
+//
+//   }
+// }
+// .left-mobile{
+//   text-align: left !important;
+//   @include mq($from: desktop) {
+//     text-align: right !important;
+//   }
+// }
+// .left-mobile2{
+//   text-align: left !important;
+//   padding-left: 15px;
+//   @include mq($from: desktop) {
+//     text-align: right !important;
+//     padding-left: 0;
+//   }
+// }
+// .marg-mobile{
+//   margin-top: -8px;
+//   @include mq($from: desktop) {
+//     margin-top: 0;
+//   }
+// }
+// .marg-mobile2{
+//   @include mq($until: desktop) {
+//     margin-top: 1px;
+//   }
+// }
+// .settings-left{
+//   text-align: left;
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 12px;
+//   font-weight: 700;
+//   color: #121212;
+//   line-height: 31px;
+//   @include mq($from: tablet) {
+//     text-align: right;
+//   }
+// }
+// .emailNotificationP{
+//   text-align: left;
+//   line-height: 24px;
+// }
+// .settingsBoxRight p{
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 11px;
+//   font-weight: 400;
+//   color: #666666;
+//   line-height: 31px;
+// }
+// .settingsBoxRight select {
+//   border: 1px solid #f9c02e;
+//   width: 200px;
+//   padding: 0 5px;
+//   line-height: 30px;
+//   height: 30px;
+//   margin-bottom: 10px;
+// }
+// .deactivateLink,.forgotMyPass{
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: bold;
+//   font-style: italic;
+//   font-size: 12px;
+//   margin-top: 20px;
+//   display: block;
+//   color: #39b6cd;
+// }
+// .settingsBoxRight .forgotMyPass{
+//   font-size: 10px;
+//   margin: 0px;
+// }
+// .settingsBoxRight input[type=text],
+// .settingsBoxRight input[type=password] {
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 11px;
+//   color: #666666;
+//   border: 1px solid #e2e2e2;
+//   line-height: 30px;
+//   padding: 0 5px;
+//   margin-bottom: 10px;
+//   @include mq($from: tablet) {
+//     width: 220px;
+//   }
+// }
+// .settingsPreferencesEdit .btn{
+//   display: block;
+//   margin-bottom: 10px;
+//   padding: 0px;
+//   width: 80px;
+//   text-align: center;
+//   line-height: 29px;
+// }
+// .settingsPreferencesEdit .btn:nth-child(4){
+//   margin-bottom: 57px;
+// }
+// .settingsBoxRight textarea{
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 11px;
+//   color: #666666;
+//   border: 1px solid #e2e2e2;
+//   resize:none;
+//   line-height: 20px;
+//   width: 100%;
+//   height: 95px;
+//   padding: 10px;
+//   margin-top: 10px;
+// }
+// .settingsBoxRight .yellow-drop{
+//   margin-left: 0px;
+//   width: 75px;
+// }
+// .save-settings-btn{
+//   background: #A5CD39;
+// }
+//
+// .tons-dropdown{
+//   width: 100%;
+// }
+// .tons-dropdown .btn{
+//   width: 100%;
+//   text-align: left;
+//   padding-left: 10px;
+// }
+// .hideMe{
+//   display: none;
+// }
+// .fontWeightNormal{
+//   font-weight: normal !important;
+// }
 
 #map-canvas{
   width: 100%;
@@ -3191,14 +3191,14 @@ h2.settings-header {
 }
 
 
-.how_it_works_banner{
-  margin-top: 10px;
-  width: 100%;
-  height: 550px;
-  background: url('https://www.yellow-seed.org/assets/how-it-works-bg.jpg') no-repeat center;
-  background-size: cover;
-  text-align: center;
-}
+// .how_it_works_banner{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 550px;
+//   background: url('https://www.yellow-seed.org/assets/how-it-works-bg.jpg') no-repeat center;
+//   background-size: cover;
+//   text-align: center;
+// }
 }
 
 
