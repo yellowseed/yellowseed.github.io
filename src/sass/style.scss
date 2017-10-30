@@ -48,14 +48,17 @@
 
   p {
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     line-height: 160%;
+    @include mq($from: tablet) {
+      font-size: 18px;
+    }
   }
 
   h1 {
     color: #f9c02e;
-    font-size: 44px;
+    font-size: 40px;
     font-family: 'SkitchShaded', sans-serif;
     text-shadow: 0px 0px 30px black;
     @include mq($from: tablet) {
@@ -65,8 +68,11 @@
 
   h2 {
     color: #f9c02e;
-    font-size: 44px;
+    font-size: 32px;
     font-family: 'Lato', sans-serif;
+    @include mq($from: tablet) {
+      font-size: 44px;
+    }
   }
 
   h3 {
@@ -114,8 +120,7 @@
 
     p {
       color: white;
-      font-size: 18px;
-      padding: 0 20px 0 20px;
+      font-size: 16px;
       text-shadow: 0px 0px 10px black;
       @include mq($from: tablet) {
         font-size: 22px;
