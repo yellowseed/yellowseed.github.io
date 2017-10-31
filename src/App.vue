@@ -30,7 +30,7 @@ export default {
   color: #2c3e50;
 }
 
-nav{
-  backround-color:white!important;
+nav {
+  background-color:white!important;
 }
 </style>
