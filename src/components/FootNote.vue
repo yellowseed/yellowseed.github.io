@@ -2,11 +2,11 @@
   <div class="container-fluid footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-lg-3 mt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-3 mt-5">
           <h6>Our Mission</h6>
           <p>To design a more equitable, accessible, and participatory trade system that levels the playing field for global farmers, and builds socially and ecologically resilient communities.</p>
         </div>
-        <div class="col-sm-6 col-lg-3 mt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-3 mt-5">
           <h6>Learn more</h6>
           <a href="#/team" class="footer-link">Team</a>
           <a href="#/contact" class="footer-link">Contact Us</a>
@@ -15,7 +15,7 @@
           <a href="https://medium.com/conscious-cacao-stories" class="footer-link" target="_blank">Conscious Cacao Stories</a>
           <a href="http://www.originxchange.co" class="footer-link" target="_blank">Origin X Change</a>
         </div>
-        <div class="col-sm-6 col-lg-3 mt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-3 mt-5">
           <h6>Support</h6>
           <p>Yellow Seed is a 501c3 project of Social and Environmental Entrepreneurs (SEE), a registered public charity, which provides non-profit status.</p>
           <p>Your donation is fully tax-deductible.</p>
@@ -25,7 +25,7 @@
             <input type="submit" name="commit" value="Donate" class="btn-small btn-default">
           </form>
         </div>
-        <div class="col-sm-6 col-lg-3 mt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-3 mt-5">
           <h6>Subscribe</h6>
           <p>You’ll receive the latest on what’s happening in the Yellow Seed community.</p>
         </div>
