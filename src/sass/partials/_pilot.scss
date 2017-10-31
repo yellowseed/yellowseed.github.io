@@ -132,9 +132,13 @@
       font-family: 'Open Sans', sans-serif;
       font-size: 13px;
       position: absolute;
-      left: 15px;
       padding: 5px 8px;
-      width: 140px;
+      top: 130px;
+      width: 150px;
+    }
+
+    .img {
+      position: relative;
     }
 
     .product-name {
