@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 
 const Impact = { template: require('./components/pages/impact.html') }
 const Donate = { template: require('./components/pages/donate.html') }
-const Farmer = { template: require('./components/pages/farmer-fund.html') }
+const Farmer = { template: require('./components/pages/pilot.html') }
 const Team = { template: require('./components/pages/team.html') }
 const Contact = { template: require('./components/pages/contact.html') }
 const Home = { template: require('./components/pages/index.html') }
@@ -17,7 +17,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/impact', component: Impact },
   { path: '/donate', component: Donate },
-  { path: '/farmer', component: Farmer },
+  { path: '/pilot', component: Farmer },
   { path: '/team', component: Team },
   { path: '/contact', component: Contact }
 ]
