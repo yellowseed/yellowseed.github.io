@@ -80,11 +80,12 @@
       font-size: 30px;
       font-style: italic;
       font-weight: 300;
-      line-height: 50px;
+      line-height: 44px;
       text-align: center;
       text-shadow: 0px 0px 10px black;
       @include mq($from: tablet) {
         font-size: 36px;
+        line-height: 50px;
       }
 
       span {
@@ -100,14 +101,6 @@
       margin-right: auto;
     }
   }
-
-  // .pilot-video {
-  //   iframe {
-  //     display: block;
-  //     margin-left: auto;
-  //     margin-right: auto;
-  //   }
-  // }
 
   .storytelling-section {
     .header-links {
