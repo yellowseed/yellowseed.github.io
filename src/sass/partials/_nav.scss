@@ -1,10 +1,4 @@
-
 .navbar {
-  background-color: white !important;
-  .bg-light {
-    background-color: white !important;
-  }
-
   &-brand {
     $width: 150px;
     margin: 10px auto 10px;
@@ -14,22 +8,9 @@
     img {
       height: 50px;
     }
-  .nav-item {
-    color: #333333 !important;
-    font-family: 'Lato', sans-serif;
   }
-    // @include mq($from: tablet) {
-    //   margin-left: 15px;
-    //   .ysLogo img {
-    //     margin-top: 10px;
-    //     width: 140px;
-    //   }
-    // }
-    // @include mq($from: desktop) {
-    //   .ysLogo img {
-    //     width: 175px;
-    //     margin-top: 0;
-    //   }
-    // }
+  .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    font-family: 'Lato', sans-serif !important;
   }
 }
