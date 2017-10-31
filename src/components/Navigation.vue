@@ -1,24 +1,30 @@
+
+<div id="nav">
 <template>
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <a class="navbar-brand" href="#"><img src="/images/logo.svg"></img></a>
-  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<b-navbar navbar toggleable="md" type="light" variant="light">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/impact">Impact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/farmer">Farmer Fund</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <b-nav-toggle target="nav_collapse"></b-nav-toggle>
+
+  <b-navbar-brand class='ysLogo' href="/#">
+    <img class='brand' alt='brand.title' src='../images/logo.svg'/>
+  </b-navbar-brand>
+
+  <b-collapse is-nav id="nav_collapse">
+
+    <!-- Right aligned nav items -->
+    <b-nav is-nav-bar class="ml-auto">
+
+      <b-nav-item right href="#/impact">Impact</b-nav-item>
+      <b-nav-item right href="#/farmer">Farmer Fund</b-nav-item>
+      <b-nav-item right href="#/team">Team</b-nav-item>
+      <b-nav-item right href="#/contact">Contact Us</b-nav-item>
+      <b-nav-item right href="#/donate">Donate</b-nav-item>
+
+    </b-nav>
+
+  </b-collapse>
+</b-navbar>
 
 </template>
+</div>
