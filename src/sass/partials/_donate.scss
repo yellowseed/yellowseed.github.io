@@ -15,7 +15,7 @@
     }
 
     h1 {
-      padding-top: 250px;
+      padding-top: 150px;
       @include mq($from: mobile) {
         padding-top: 120px;
       }
