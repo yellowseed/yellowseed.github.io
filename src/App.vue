@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <navigation :brand="{title:'yellowseed',image:'../images/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'}" :items="[{title:'Impact'}, {title:'Farmer'},{title:'Team'},{title:'Contact'},{title:'Donate'}]" />
-    <router-view></router-view><footer></footer>
+    <router-view></router-view>
+    <foot-note>
+    </foot-note>
   </div>
 </template>
 
 <script>
 import MessageToggle from '@/components/MessageToggle.vue'
 import Navigation from '@/components/Navigation.vue'
-import Footer from '@/components/Footer.vue'
+import FootNote from '@/components/FootNote.vue'
 
 export default {
   components: {
     MessageToggle,
-    Navigation
+    Navigation,
+    FootNote
   }
 }
 </script>
