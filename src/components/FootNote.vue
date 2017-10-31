@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-6 col-lg-3 mt-5">
           <h6>Our Mission</h6>
-          <p>To design a more equitable, accessible, and participatory trade system that levels the playing field for global farmers,and builds socially and ecologically resilient communities.</p>
+          <p>To design a more equitable, accessible, and participatory trade system that levels the playing field for global farmers, and builds socially and ecologically resilient communities.</p>
         </div>
         <div class="col-sm-6 col-lg-3 mt-5">
           <h6>Learn more</h6>
@@ -19,6 +19,11 @@
           <h6>Support</h6>
           <p>Yellow Seed is a 501c3 project of Social and Environmental Entrepreneurs (SEE), a registered public charity, which provides non-profit status.</p>
           <p>Your donation is fully tax-deductible.</p>
+          <form target="_blank" id="donate-form" action="https://www.paypal.com/cgi-bin/webscr" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="sv/4OnRavXhKU7hWceRtgxr5JOEvbiv0uTqZgny1OZnYotM8jqPCaqGMt32om9kReN2NIu8ecVcH2WH1Pd7bhg==">
+            <input type="hidden" name="cmd" id="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" id="hosted_button_id" value="Q8PFCNJK3PJ9W">
+            <input type="submit" name="commit" value="Donate" class="btn-small btn-default">
+          </form>
         </div>
         <div class="col-sm-6 col-lg-3 mt-5">
           <h6>Subscribe</h6>
@@ -27,7 +32,7 @@
       </div>
       <div class="h-line col-md-10 offset-md-1"></div>
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center mb-5">
           <h6>Follow us on the web!</h6>
           <a href="https://www.facebook.com/YellowSeedOrg" target="_blank">
             <span class="fa-stack fa-lg">
