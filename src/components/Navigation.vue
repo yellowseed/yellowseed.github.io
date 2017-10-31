@@ -1,5 +1,3 @@
-
-<div id="nav">
 <template>
 
 <b-navbar navbar toggleable="md" type="light" variant="light">
@@ -27,4 +25,3 @@
 </b-navbar>
 
 </template>
-</div>
