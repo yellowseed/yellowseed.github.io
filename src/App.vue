@@ -11,12 +11,14 @@
 import MessageToggle from '@/components/MessageToggle.vue'
 import Navigation from '@/components/Navigation.vue'
 import FootNote from '@/components/FootNote.vue'
+import GoogleMap from '@/components/GoogleMap.vue'
 
 export default {
   components: {
     MessageToggle,
     Navigation,
-    FootNote
+    FootNote,
+    GoogleMap
   }
 }
 </script>

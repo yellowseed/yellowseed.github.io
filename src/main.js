@@ -2,11 +2,17 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
+import VueAwesome from 'vue-awesome/icons'
+import Impact from './components/impact.vue'
+var Icon = require('vue-awesome')
 
+
+Vue.use(Icon);
 Vue.use(BootstrapVue);
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-const Impact = { template: require('./components/pages/impact.html') }
+
+// globally (in your main .js file)
 const Donate = { template: require('./components/pages/donate.html') }
 const Farmer = { template: require('./components/pages/pilot.html') }
 const Team = { template: require('./components/pages/team.html') }
@@ -22,11 +28,17 @@ const routes = [
   { path: '/contact', component: Contact }
 ]
 const router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 
 require('./sass/style.scss');
 require('./index.html');
+require('./Components/mapStyle.js');
+require('./Components/Origins.js');
+
 
 new Vue({
   router,

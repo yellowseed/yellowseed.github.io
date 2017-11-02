@@ -10,13 +10,13 @@
   <div class='container'>
     <div class='row'>
       <div class="col-md-8 mt-5 contact-form">
-        <form action="/contact" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓">
+        <form action="mailto:hello@yellow-seed.org?subject=contact&" enctype="text/plain">
           <h2>Send a Message</h2>
           <p class="mt-3">We look forward to hearing any questions, comments or ideas you have of working together.</p>
           <label>Name<input type="text" name="name" id="name" required="required"> </label>
           <label>Email<input type="email" name="email" id="email" required="required"> </label>
           <label>Subject<input type="text" name="subject" id="subject" required="required"> </label>
-          <label>Message<textarea name="message" id="message" required="required"></textarea> </label>
+          <label>Body<textarea name="body" id="body" required="required"></textarea> </label>
           <input type="submit" name="commit" value="send message" class="btn-default top20"> </input>
         </form>
       </div>
