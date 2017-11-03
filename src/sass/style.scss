@@ -233,32 +233,8 @@ label.error {
     // padding-top: 6px;
   }
 }
-.center{
+.center {
   text-align: center;
-}
-.paddLeft0{
-  padding-left: 0px;
-}
-.paddRight0{
-  padding-right: 0px;
-}
-.lift-10px {
-  margin-top:-10px;
-}
-.topneg10{
-  margin-top: -10px;
-}
-.topneg5{
-  margin-top: -5px;
-}
-.topneg7{
-  margin-top: -7px;
-}
-.bottomneg10{
-  margin-bottom: -10px;
-}
-.top0{
-  margin-top: 0 !important;
 }
 .top5 {
   margin-top: 5px !important;
@@ -271,12 +247,6 @@ label.error {
 }
 .top20 {
   margin-top: 20px !important;
-}
-.top30 {
-  margin-top: 30px !important;
-}
-.mt-4 {
-  margin-top: 40px;
 }
 .top50 {
   margin-top: 50px;
@@ -296,556 +266,229 @@ label.error {
 .top100 {
   margin-top: 100px;
 }
-.topneg20{
-  margin-top: -20px;
-}
-.leftneg5{
-  margin-left: -5px;
-}
-.leftneg10{
-  margin-left: -10px !important;
-}
-.left0{
-  margin-left: 0px !important;
-}
-.left5{
-  margin-left: 5px !important;
-}
-.left10{
-  margin-left: 10px !important;
-}
-.left15{
-  margin-left: 15px;
-}
-.left20{
-  margin-left: 20px;
-}
-.left30{
-  margin-left: 30px;
-}
-.left40{
-  margin-left: 40px;
-}
-.right10{
-  margin-right: 10px !important;
-}
-.right15{
-  margin-right: 15px !important;
-}
-.right20{
-  margin-right: 20px;
-}
-.right30{
-  margin-right: 30px;
-}
-.right40{
-  margin-right: 40px;
-}
-.bottom0{
-  margin-bottom: 0;
-}
-.bottom5{
+.bottom5 {
   margin-bottom: 5px;
 }
-.bottom10{
-  margin-bottom: 10px;
-}
-.bottomneg10{
-  margin-bottom: -10px !important;
-}
-.bottom15{
-  margin-bottom: 15px;
-}
-.bottom20{
-  margin-bottom: 20px;
-}
-.bottom30{
-  margin-bottom: 30px;
-}
-.bottom40{
-  margin-bottom: 40px;
-}
-.bottom50{
-  margin-bottom: 50px;
-}
-.bottom60{
-  margin-bottom: 60px;
-}
-.width90{
-  width: 90%;
-}
-.width10{
-  width: 10%;
-}
-.leftpadd0{
-  padding-left: 0 !important;
-}
-.rightpadd0{
+.rightpadd0 {
   padding-right: 0 !important;
 }
-.top-padd-5{
-  padding-top: 5px !important;
-}
-.top-padd-0{
-  padding-top: 0 !important;
-}
-.top-padd-50{
-  padding-top: 50 !important;
-}
-// .productSearch{
-//   margin: 40px 15px;
-//   max-width: 1200px;
+
+// .topneg20{
+//   margin-top: -20px;
 // }
-// .product-search{
-//   width: 100%;
-//   height: 172px;
-//   background-color: #f9c02e;
-//   padding: 32px 30px 30px 30px;
-//   margin-bottom: 30px;
-//   @include mq($from: tablet) {
-//     height: 107px;
-//   }
+// .leftneg5{
+//   margin-left: -5px;
 // }
-// .search-container{
-//   padding-left: 0;
-//   padding-right: 0;
-//   margin-left: -15px;
-//   margin-right: -15px;
-//   @include mq($from: tablet) {
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
+// .leftneg10{
+//   margin-left: -10px !important;
 // }
-// .product-search input{
-//   border: 1px solid #f9c02e;
+// .left0{
+//   margin-left: 0px !important;
 // }
-// .search-query{
-//   width: 100%;
-//   padding-left: 10px;
-//   height: 45px;
+// .left5{
+//   margin-left: 5px !important;
 // }
-// .search-country{
-//   height: 45px;
-//   margin-right: 25px;
-//   margin-top: 20px;
-//   width: 120px;
-//   @include mq($from: tablet) {
-//     width: 80px;
-//     margin-top: 0;
-//   }
-//   @include mq($from: desktop) {
-//     width: 150px;
-//   }
+// .left10{
+//   margin-left: 10px !important;
 // }
-// .product-search select{
-//   border: 1px solid #f9c02e;
+// .left15{
+//   margin-left: 15px;
 // }
-// .search-btn{
-//   border: 2px white solid!important;
-//   color: #1a1a1a !important;
-//   font-size: 16px;
-//   height: 43px;
+// .left20{
+//   margin-left: 20px;
 // }
-// .sort-by-container{
-//   margin-top: 20px;
-//   float: right;
-//   @include mq($from: tablet) {
-//     margin-top: 0;
-//   }
+// .left30{
+//   margin-left: 30px;
 // }
-// .sort-drop{
-//   height: 45px;
+// .left40{
+//   margin-left: 40px;
 // }
-// .sort-label{
-//   font-family: 'Lato', sans-serif;
-//   font-weight: 700;
-//   font-size: 12px;
-//   text-transform: uppercase;
-//   margin-right: 5px;
+// .right10{
+//   margin-right: 10px !important;
 // }
-// .products-large{
-//   @include mq($from: mobile) {
-//     display: none;
-//   }
-//   @include mq($from: tablet) {
-//     display: block;
-//   }
+// .right15{
+//   margin-right: 15px !important;
 // }
-// .products-small{
-//   display: none;
-//   @include mq($from: mobile) {
-//     display: block;
-//   }
-//   @include mq($from: tablet) {
-//     display: none;
-//   }
+// .right20{
+//   margin-right: 20px;
 // }
-// .cacaoImg {
-//   position: relative;
-//   margin-left:auto;
-//   margin-right:auto;
-//   width:100%;
-//   height: 220px;
-//   background-size: cover !important;
-//   background-position: center;
-//   border: 1px solid #9f9f9f;
-//   @include mq-scale-between-devices((height: 220px), mobile, tablet);
-//   @include mq-scale-between-devices((height: 240px), desktop, wide);
-//   &:hover {
-//     &:before {
-//       content: '';
-//       position: absolute;
-//       height: 100%;
-//       width: 100%;
-//       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-//       // background-image: linear-gradient(to bottom, rgba(249, 192, 46, 0.8), rgba(249, 192, 46, 0.9));
-//       pointer-events: none;
-//     }
-//     background-color: #f9c02e;
-//   }
+// .right30{
+//   margin-right: 30px;
 // }
-// .farmImg {
-//   position: relative;
-//   margin-left:auto;
-//   margin-right:auto;
-//   width:100%;
-//   height: 220px;
-//   background-size: cover !important;
-//   background-position: center;
-//   // border: 1px solid #9f9f9f;
-//   @include mq-scale-between-devices((height: 220px), mobile, tablet);
-//   @include mq-scale-between-devices((height: 240px), desktop, wide);
-//   &:hover {
-//     &:before {
-//       content: '';
-//       position: absolute;
-//       height: 100%;
-//       width: 100%;
-//       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-//       // background-image: linear-gradient(to bottom, rgba(249, 192, 46, 0.8), rgba(249, 192, 46, 0.9));
-//       pointer-events: none;
-//     }
-//     background-color: #f9c02e;
-//   }
+// .right40{
+//   margin-right: 40px;
 // }
-// .cacaoTypeContainer {
-//   position: relative;
-//   margin-left:auto;
-//   margin-right:auto;
-//   width:265px;
-//   height:160px;
-//   background-size: auto 170px;
-//   background-position: center;
-//   border: 1px solid #9f9f9f;
+// .bottom0{
+//   margin-bottom: 0;
 // }
-// .cacaoType {
-//   color: #FFF;
-//   font-size: 32px;
-//   font-weight: 500;
-//   position: absolute;
-//   bottom: 0px;
-//   left: 10px;
-//   text-shadow: 0px 0px 5px #000000;
-//   font-family: 'Lato', sans-serif;
-//   line-height: 118%;
-//   bottom: 5px;
-//   @include mq($from: mobile) {
-//     font-size: 28px;
-//   }
-//   @include mq($from: tablet) {
-//     font-size: 32px;
-//   }
+
+// .bottom10{
+//   margin-bottom: 10px;
 // }
-//
-// h3.originName{
-//   color: #39b6cd;
-//   font-size: 32px;
-//   font-weight: 500;
-//   margin-top: 20px;
-//   @include mq($from: tablet) {
-//     margin-top: 0;
-//   }
+// .bottomneg10{
+//   margin-bottom: -10px !important;
 // }
-// .originName a:hover {
-//   text-decoration: none;
-//   color: #1d8a9e !important;
-//   font-weight: 500;
+// .bottom15{
+//   margin-bottom: 15px;
 // }
-//
-// .cacaoDescription p{
-//   line-height: 10px;
-// }
-// .fa-map-marker{
-//   color: #f9c02e;
-//   padding-right: 3px;
-// }
-// .productCountry{
-//   color: #191919;
-//   font-size: 20px;
-//   font-weight: bold;
-//   margin-top: 10px;
-// }
-// .productCountrySmall{
-//   color: #191919;
-//   font-size: 18px;
-//   font-weight: normal;
-//   margin-top: 5px;
-// }
-//
-// .item-origin{
+// .bottom20{
 //   margin-bottom: 20px;
 // }
-// .item-product{
-//   margin-bottom: 15px;
-//   height:100%;
+// .bottom30{
+//   margin-bottom: 30px;
 // }
-// .productPrice{
-//   color: #000000;
-//   font-size: 16px;
-//   font-family: 'Open Sans', sans-serif;
-// }
-//
-// .boxedPriceSearch{
-//   position: absolute;
-//   top: 10px;
-//   right: 0px;
-//   width: 140px;
-//   border: 1px solid #f9c02e;
-//   background-color: #f9c02e;
-//   color: black;
-//   padding: 5px 8px;
-//   font-size: 13px;
-// }
-
-// .product-approval{
-//   font-weight: 600;
-//   font-family: 'Lato', sans-serif;
-// }
-//
-// .farm-origin-text{
-//   font-size: 18px;
-//   font-weight: 500;
-//   padding-top: 3px;
-// }
-//
-// .select-farm{
-//   font-size: 28px;
-//   font-weight: 700;
-//   font-family: 'Lato', sans-serif;
+// .bottom40{
 //   margin-bottom: 40px;
 // }
+// .bottom50{
+//   margin-bottom: 50px;
+// }
+// .bottom60{
+//   margin-bottom: 60px;
+// }
+// .width90{
+//   width: 90%;
+// }
+// .width10{
+//   width: 10%;
+// }
+// .leftpadd0{
+//   padding-left: 0 !important;
+// }
+
+// }
+// .top-padd-5{
+//   padding-top: 5px !important;
+// }
+// .top-padd-0{
+//   padding-top: 0 !important;
+// }
+// .top-padd-50{
+//   padding-top: 50 !important;
+// }
+// .text-center {
+//   text-align: center;
+// }
+// .carousel-inner {
+//     width: auto;
+// }
+// .carousel-inner > .item > img {
+//   margin: 0 auto;
+// }
+// .carousel-left{
+//   display: inline-block;
+//   width: 39px;
+//   height: 62px;
+//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
+//   background-repeat: no-repeat;
+//   // position: absolute;
+//   top: 50%;
+//   // z-index: 5;
+// }
+// .carousel-right{
+//   display: inline-block;
+//   width: 39px;
+//   height: 62px;
+//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
+//   background-repeat: no-repeat;
+//   // position: absolute;
+//   top: 50%;
+//   /*right: 0px;*/
+//   // z-index: 5;
+// }
+// .carousel-left-origin{
+//   display: inline-block;
+//   width: 39px;
+//   height: 62px;
+//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
+//   background-repeat: no-repeat;
+//   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
+//   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
+//   position: absolute;
+//   top: 50%;
+//   margin-left: 20px;
+// }
+// .carousel-right-origin{
+//   display: inline-block;
+//   width: 39px;
+//   height: 62px;
+//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
+//   background-repeat: no-repeat;
+//   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
+//   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
+//   position: absolute;
+//   top: 50%;
+//   margin-left: -10px;
+// }
+// .carousel-control.right,.carousel-control.left{
+//   background-image: none;
+//   margin-top: -31px;
+// }
+// .carousel-control.right {
+//   right: 40px;
+// }
 //
-// .name-origin{
-//   display: block;
-//   font-weight: 300;
+// .carousel .item {
+//   width: 100%; /*slider width*/
+//   max-height: 600px; /*slider height*/
 // }
-// .well.select_origin {
-//     background:white;
-//     padding:42px;
-//     margin:auto;
-//     margin-top:42px;
-//     margin-bottom:1000px;
+// .carousel .item img {
+//   width: 100%; /*img width*/
 // }
-//
-//
-//
-// .origins_banner{
-//   margin-top: 10px;
-//   width: 100%;
-//   height: 315px;
-//   background: url('https://www.yellow-seed.org/assets/origins_banner.jpg') no-repeat center;
-//   background-size: cover;
-//   text-align:center;
+// /*add some makeup*/
+// .carousel .carousel-control {
+//   background: none;
+//   border: none;
+//   /*top: 50%;*/
 // }
-// .profiles_banner{
-//   margin-top: 10px;
-//   width: 100%;
-//   height: 315px;
-//   background: url('https://www.yellow-seed.org/assets/products_banner.jpg') no-repeat center;
-//   background-size: cover;
-//   text-align:center;
-// }
-// .origin{
-//   border: 1px solid #e2e2e2;
-//   padding: 15px;
-//   border-radius: 3px;
-// }
-//
-// .originDescription p{
-//   line-height: 10px;
-// }
-// .originDescription p:nth-child(1) a {
-//   color: #39b6cd;
-//   font-size: 20px;
-//   font-weight: 500;
-//   line-height: 20px;
-//   margin-top: 20px;
-//   font-family: 'Lato', sans-serif;
-//   &:hover {
-//     text-decoration: none;
-//     color: #1d8a9e;
+/*full width container*/
+// @media (max-width: 767px) {
+//   .block {
+//     margin-left: -20px;
+//     margin-right: -20px;
 //   }
 // }
-// .originDescription p:nth-child(2){
-//   color: #666666;
-//   font-size: 12px;
+//
+// @media (min-width: 970px) {
+//     .col-lg-10 {
+//     margin-right: auto;
+//     margin-left: auto;
+//     }
 // }
-// .originDescription p:nth-child(3){
-//   color: #666666;
-//   font-size: 10px;
-//   font-family: 'Open Sans', sans-serif;
+
+
+
+
+// .hBar{
+//   width: 100%;
+//   height: 25px;
+//   background: #efefef;
 // }
-// .originDescription p:nth-child(4){
-//   color: #333333;
-//   font-weight: 600;
-//   font-size: 10px;
-//   font-family: 'Open Sans', sans-serif;
+// .hBar .progressBar{
+//   height: 25px;
+//   background: #efefef;
 // }
-// .productionCapacity{
-//   color: #1a1a1a;
-//   font-size: 11px;
-//   font-family: 'Open Sans', sans-serif;
+// .capacity-number{
+//   float: left;
 // }
-// .productionCapacity span{
-//   font-family: 'Lato', sans-serif;
-//   font-weight: 900;
+// .progressBar5{width: 5%;}
+// .progressBar10{width: 10%;}
+// .progressBar20{width: 20%;}
+// .progressBar30{width: 30%;}
+// .progressBar40{width: 40%;}
+// .progressBar50{width: 50%;}
+// .progressBar60{width: 60%;}
+// .progressBar70{width: 70%;}
+// .progressBar80{width: 80%;}
+// .progressBar90{width: 90%;}
+// .progressBar100{width: 100%;}
+//
+// .progressBarOrange{
+//   background: #efefef !important;
 // }
-// .loadMoreBtn{
-//   font-size: 14px;
-//   color: #121212;
-//   font-family: 'Open Sans', sans-serif;
-//   font-weight: 700;
-//   border: 1px solid #ffcc33;
-//   border-radius: 3px;
-//   line-height: 30px;
+// .progressBarTip1{
+//   background: #a4cd39 !important;
 // }
-.carousel-inner {
-    width: auto;
-}
-.carousel-inner > .item > img {
-  margin: 0 auto;
-}
-.carousel-left{
-  display: inline-block;
-  width: 39px;
-  height: 62px;
-  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
-  background-repeat: no-repeat;
-  // position: absolute;
-  top: 50%;
-  // z-index: 5;
-}
-.carousel-right{
-  display: inline-block;
-  width: 39px;
-  height: 62px;
-  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
-  background-repeat: no-repeat;
-  // position: absolute;
-  top: 50%;
-  /*right: 0px;*/
-  // z-index: 5;
-}
-.carousel-left-origin{
-  display: inline-block;
-  width: 39px;
-  height: 62px;
-  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
-  background-repeat: no-repeat;
-  -webkit-filter: drop-shadow( 0px 0px 5px #000 );
-  filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
-  position: absolute;
-  top: 50%;
-  margin-left: 20px;
-}
-.carousel-right-origin{
-  display: inline-block;
-  width: 39px;
-  height: 62px;
-  background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
-  background-repeat: no-repeat;
-  -webkit-filter: drop-shadow( 0px 0px 5px #000 );
-  filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
-  position: absolute;
-  top: 50%;
-  margin-left: -10px;
-}
-.carousel-control.right,.carousel-control.left{
-  background-image: none;
-  margin-top: -31px;
-}
-.carousel-control.right {
-  right: 40px;
-}
-
-.carousel .item {
-  width: 100%; /*slider width*/
-  max-height: 600px; /*slider height*/
-}
-.carousel .item img {
-  width: 100%; /*img width*/
-}
-/*add some makeup*/
-.carousel .carousel-control {
-  background: none;
-  border: none;
-  /*top: 50%;*/
-}
-/*full width container*/
-@media (max-width: 767px) {
-  .block {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-}
-
-@media (min-width: 970px) {
-    .col-lg-10 {
-    margin-right: auto;
-    margin-left: auto;
-    }
-}
-
-.centered {
-    margin: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.hBar{
-  width: 100%;
-  height: 25px;
-  background: #efefef;
-}
-.hBar .progressBar{
-  height: 25px;
-  background: #efefef;
-}
-.capacity-number{
-  float: left;
-}
-.progressBar5{width: 5%;}
-.progressBar10{width: 10%;}
-.progressBar20{width: 20%;}
-.progressBar30{width: 30%;}
-.progressBar40{width: 40%;}
-.progressBar50{width: 50%;}
-.progressBar60{width: 60%;}
-.progressBar70{width: 70%;}
-.progressBar80{width: 80%;}
-.progressBar90{width: 90%;}
-.progressBar100{width: 100%;}
-
-.progressBarOrange{
-  background: #efefef !important;
-}
-.progressBarTip1{
-  background: #a4cd39 !important;
-}
-.progressBarTip2{
-  background: #f9c02e !important;
-}
+// .progressBarTip2{
+//   background: #f9c02e !important;
+// }
