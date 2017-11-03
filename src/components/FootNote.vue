@@ -27,35 +27,32 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 mt-5">
           <h6>Subscribe</h6>
-          <!-- Begin MailChimp Signup Form -->
-          <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://yellow-seed.us8.list-manage.com/subscribe/post?u=de824b6a83efd3232425c0190&amp;id=551cc07d7e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <div id="mc_embed_signup_scroll">
-
-<div class="mc-field-group">
-<input placeholder='First Name' type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-<input  placeholder='Last Name' type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-</div>
-<div class="mc-field-group">
-<input placeholder='your@email.com' type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div id="mce-responses" class="clear">
-  <div class="response" id="mce-error-response" style="display:none"></div>
-  <div class="response" id="mce-success-response" style="display:none"></div>
-</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_de824b6a83efd3232425c0190_551cc07d7e" tabindex="-1" value=""></div>
-  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-small btn-default"></div>
-  </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-<!--End mc_embed_signup-->
           <p>You’ll receive the latest on what’s happening in the Yellow Seed community.</p>
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup" class="subscribe-box">
+          <form action="https://yellow-seed.us8.list-manage.com/subscribe/post?u=de824b6a83efd3232425c0190&amp;id=551cc07d7e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+              <input placeholder='First Name' type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              </div>
+              <div class="mc-field-group">
+              <input  placeholder='Last Name' type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+              </div>
+              <div class="mc-field-group">
+              <input placeholder='your@email.com' type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_de824b6a83efd3232425c0190_551cc07d7e" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-small btn-default"></div>
+              </div>
+          </form>
+          </div>
+          <!--End mc_embed_signup-->
+
         </div>
       </div>
       <div class="h-line col-md-10 offset-md-1"></div>

@@ -32,35 +32,29 @@
   .fa-circle {
     color: #333333;
   }
-}
 
-.subscribeEmail{
-  background: transparent;
-  border: 1px solid #cccccc !important;
-  padding: 4px 5px;
-  position: relative;
-  top: -3px;
-}
-.subscribe-first{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-bottom: 0;
-  }
-}
-.subscribe-last{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-left: 5px;
-    margin-bottom: 0;
+  .subscribe-box {
+    #mce-FNAME {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin-top: 0px;
+      padding: 5px;
+      width: 100%;
+    }
+    #mce-LNAME {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin-top: 5px;
+      padding: 5px;
+      width: 100%;
+    }
+    #mce-EMAIL {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 25px;
+      padding: 5px;
+      width: 100%;
+    }
   }
 }
