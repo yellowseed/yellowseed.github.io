@@ -22,7 +22,7 @@
     line-height: 28px;
   }
 
-  .h-line{
+  .h-line {
     height: 1px;
     background: #cccccc;
     margin-top: 30px;
@@ -36,6 +36,7 @@
   .subscribe-box {
     #mce-FNAME {
       background: transparent;
+      border: 1px solid #cccccc;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       padding: 5px;
@@ -43,6 +44,7 @@
     }
     #mce-LNAME {
       background: transparent;
+      border: 1px solid #cccccc;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       padding: 5px;
@@ -50,6 +52,7 @@
     }
     #mce-EMAIL {
       background: transparent;
+      border: 1px solid #cccccc;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       margin-top: 7px;

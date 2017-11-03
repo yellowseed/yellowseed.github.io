@@ -192,303 +192,50 @@
   max-width: 100%;
 }
 
-
-
-
-
-
-
 .touch {
   cursor: pointer;
 }
 
-label.error {
-  color: #cd4339 !important;
-  line-height: 20px !important;
-}
-
-
-.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
-  border: none;
-}
-.form-control{
-  line-height: 29px;
-  height: 29px;
-  padding: 0 5px;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.form-horizontal .control-label {
-  padding-top: 4px;
-  font-weight: bold;
-  font-size: 12px;
-}
-.control-label-signup {
-  padding-top: 7px;
-  font-weight: bold;
-  font-size: 9.5px;
-  @include mq($from: mobile) {
-    font-size:12px;
-    // padding-top: 6px;
-  }
-}
 .center {
   text-align: center;
 }
+
 .top5 {
   margin-top: 5px !important;
 }
+
 .top10 {
   margin-top: 10px;
 }
+
 .top15 {
   margin-top: 15px;
 }
-.top20 {
-  margin-top: 20px !important;
-}
+
 .top50 {
   margin-top: 50px;
 }
+
 .top60 {
   margin-top: 60px;
 }
+
 .top70 {
   margin-top: 70px;
 }
+
 .top80 {
   margin-top: 80px;
 }
+
 .top90 {
   margin-top: 90px;
 }
+
 .top100 {
   margin-top: 100px;
 }
+
 .bottom5 {
   margin-bottom: 5px;
 }
-.rightpadd0 {
-  padding-right: 0 !important;
-}
-
-// .topneg20{
-//   margin-top: -20px;
-// }
-// .leftneg5{
-//   margin-left: -5px;
-// }
-// .leftneg10{
-//   margin-left: -10px !important;
-// }
-// .left0{
-//   margin-left: 0px !important;
-// }
-// .left5{
-//   margin-left: 5px !important;
-// }
-// .left10{
-//   margin-left: 10px !important;
-// }
-// .left15{
-//   margin-left: 15px;
-// }
-// .left20{
-//   margin-left: 20px;
-// }
-// .left30{
-//   margin-left: 30px;
-// }
-// .left40{
-//   margin-left: 40px;
-// }
-// .right10{
-//   margin-right: 10px !important;
-// }
-// .right15{
-//   margin-right: 15px !important;
-// }
-// .right20{
-//   margin-right: 20px;
-// }
-// .right30{
-//   margin-right: 30px;
-// }
-// .right40{
-//   margin-right: 40px;
-// }
-// .bottom0{
-//   margin-bottom: 0;
-// }
-
-// .bottom10{
-//   margin-bottom: 10px;
-// }
-// .bottomneg10{
-//   margin-bottom: -10px !important;
-// }
-// .bottom15{
-//   margin-bottom: 15px;
-// }
-// .bottom20{
-//   margin-bottom: 20px;
-// }
-// .bottom30{
-//   margin-bottom: 30px;
-// }
-// .bottom40{
-//   margin-bottom: 40px;
-// }
-// .bottom50{
-//   margin-bottom: 50px;
-// }
-// .bottom60{
-//   margin-bottom: 60px;
-// }
-// .width90{
-//   width: 90%;
-// }
-// .width10{
-//   width: 10%;
-// }
-// .leftpadd0{
-//   padding-left: 0 !important;
-// }
-
-// }
-// .top-padd-5{
-//   padding-top: 5px !important;
-// }
-// .top-padd-0{
-//   padding-top: 0 !important;
-// }
-// .top-padd-50{
-//   padding-top: 50 !important;
-// }
-// .text-center {
-//   text-align: center;
-// }
-// .carousel-inner {
-//     width: auto;
-// }
-// .carousel-inner > .item > img {
-//   margin: 0 auto;
-// }
-// .carousel-left{
-//   display: inline-block;
-//   width: 39px;
-//   height: 62px;
-//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
-//   background-repeat: no-repeat;
-//   // position: absolute;
-//   top: 50%;
-//   // z-index: 5;
-// }
-// .carousel-right{
-//   display: inline-block;
-//   width: 39px;
-//   height: 62px;
-//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
-//   background-repeat: no-repeat;
-//   // position: absolute;
-//   top: 50%;
-//   /*right: 0px;*/
-//   // z-index: 5;
-// }
-// .carousel-left-origin{
-//   display: inline-block;
-//   width: 39px;
-//   height: 62px;
-//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_left.svg');
-//   background-repeat: no-repeat;
-//   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
-//   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
-//   position: absolute;
-//   top: 50%;
-//   margin-left: 20px;
-// }
-// .carousel-right-origin{
-//   display: inline-block;
-//   width: 39px;
-//   height: 62px;
-//   background: url('https://www.yellow-seed.org/assets/carousel_arrows_white_right.svg');
-//   background-repeat: no-repeat;
-//   -webkit-filter: drop-shadow( 0px 0px 5px #000 );
-//   filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
-//   position: absolute;
-//   top: 50%;
-//   margin-left: -10px;
-// }
-// .carousel-control.right,.carousel-control.left{
-//   background-image: none;
-//   margin-top: -31px;
-// }
-// .carousel-control.right {
-//   right: 40px;
-// }
-//
-// .carousel .item {
-//   width: 100%; /*slider width*/
-//   max-height: 600px; /*slider height*/
-// }
-// .carousel .item img {
-//   width: 100%; /*img width*/
-// }
-// /*add some makeup*/
-// .carousel .carousel-control {
-//   background: none;
-//   border: none;
-//   /*top: 50%;*/
-// }
-/*full width container*/
-// @media (max-width: 767px) {
-//   .block {
-//     margin-left: -20px;
-//     margin-right: -20px;
-//   }
-// }
-//
-// @media (min-width: 970px) {
-//     .col-lg-10 {
-//     margin-right: auto;
-//     margin-left: auto;
-//     }
-// }
-
-
-
-
-// .hBar{
-//   width: 100%;
-//   height: 25px;
-//   background: #efefef;
-// }
-// .hBar .progressBar{
-//   height: 25px;
-//   background: #efefef;
-// }
-// .capacity-number{
-//   float: left;
-// }
-// .progressBar5{width: 5%;}
-// .progressBar10{width: 10%;}
-// .progressBar20{width: 20%;}
-// .progressBar30{width: 30%;}
-// .progressBar40{width: 40%;}
-// .progressBar50{width: 50%;}
-// .progressBar60{width: 60%;}
-// .progressBar70{width: 70%;}
-// .progressBar80{width: 80%;}
-// .progressBar90{width: 90%;}
-// .progressBar100{width: 100%;}
-//
-// .progressBarOrange{
-//   background: #efefef !important;
-// }
-// .progressBarTip1{
-//   background: #a4cd39 !important;
-// }
-// .progressBarTip2{
-//   background: #f9c02e !important;
-// }
