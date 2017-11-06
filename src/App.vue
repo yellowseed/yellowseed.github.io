@@ -12,13 +12,15 @@ import MessageToggle from '@/components/MessageToggle.vue'
 import Navigation from '@/components/Navigation.vue'
 import FootNote from '@/components/FootNote.vue'
 import GoogleMap from '@/components/GoogleMap.vue'
+import Embedly from '@/components/Embedly.vue'
 
 export default {
   components: {
     MessageToggle,
     Navigation,
     FootNote,
-    GoogleMap
+    GoogleMap,
+    Embedly
   }
 }
 </script>
