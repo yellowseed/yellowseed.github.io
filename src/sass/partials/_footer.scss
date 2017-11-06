@@ -22,7 +22,7 @@
     line-height: 28px;
   }
 
-  .h-line{
+  .h-line {
     height: 1px;
     background: #cccccc;
     margin-top: 30px;
@@ -32,36 +32,34 @@
   .fa-circle {
     color: #333333;
   }
-}
 
-.subscribeEmail{
-  background: transparent;
-  border: 1px solid #cccccc !important;
-  padding: 4px 5px;
-  position: relative;
-  top: -3px;
-}
-.subscribe-first{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-bottom: 0;
-  }
-}
-.subscribe-last{
-  width: 119px;
-  @include mq($from: desktop) {
-    width: 160px;
-    margin-bottom: 5px;
-  }
-  @include mq($from: wide) {
-    width: 119px;
-    margin-left: 5px;
-    margin-bottom: 0;
+  .subscribe-box {
+    #mce-FNAME {
+      background: transparent;
+      border: 1px solid #cccccc;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      padding: 5px;
+      width: 100%;
+    }
+    #mce-LNAME {
+      background: transparent;
+      border: 1px solid #cccccc;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      padding: 5px;
+      width: 100%;
+    }
+    #mce-EMAIL {
+      background: transparent;
+      border: 1px solid #cccccc;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin-top: 7px;
+      margin-bottom: 25px;
+      padding: 5px;
+      width: 100%;
+    }
   }
 }
 .mc-field-group{

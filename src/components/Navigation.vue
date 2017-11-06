@@ -4,7 +4,7 @@
 
   <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
-  <b-navbar-brand class='ysLogo' href="/#">
+  <b-navbar-brand class='ysLogo' href="#/">
     <img class='brand' alt='brand.title' src='../images/logo.svg'/>
   </b-navbar-brand>
 

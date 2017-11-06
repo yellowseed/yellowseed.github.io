@@ -27,7 +27,7 @@
         </div>
         <div class="col-12 col-lg-5 table-bordered mt-4">
           <p class="mt-4 mb-1"><span class="donated-amount">$0</span> of $3000 goal</p>
-          <div class="progress bottom30">
+          <div class="progress mb-4">
             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
               <span class="sr-only">0% Complete</span>
             </div>
@@ -59,7 +59,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <div class="top50 bottom20 header-lg">About this Pilot</div>
+        <div class="mt-5 mb-4 header-lg">About this Pilot</div>
         <h3><strong>Farmer-Driven Leadership:  Voice and Choice</strong></h3>
         <p class="size16">Yellow Seed (YS) believes the future of food depends on a paradigm shift and collectively making positive change that goes beyond current levels of compliance. Our community is therefore committed to co-design and mindfully steward a new type
           of farmer-driven community marketplace, which facilitates new methods of cultural, financial, and agricultural exchanges, in order to amplify positive social and environmental impact. </p>
@@ -75,7 +75,7 @@
         <p class="size16">The pilot includes the launch of new marketplace features for Conscious Trade aimed to create impact in a human-based approach. This consists of letting farmers decide what impact is needed, allowing buyers and other stakeholders to track how
           the prices they pay contribute to that impact. Transparency features include a pricing wheel and supply chain visualization on the product page to help buyers track value at each step. Stories, <a target="_blank" href="/community/impact">impact metrics</a>,
           and a farmer-directed project support the awareness of what goes into a fair price and what success looks like as it is defined by communities at origin. See the “Farmer Choice Fund” below for more information. </p>
-        <h4 class="top20"><strong>FARMER CHOICE FUND (FCF)</strong></h4>
+        <h4 class="mt-3"><strong>FARMER CHOICE FUND (FCF)</strong></h4>
         <p class="size16">The Farmer Choice Fund is a powerful way to support farmer-directed projects – action towards social and environmental impact. For this fund, farmers will receive an additional 10% on the price they are paid for their beans, direct how money
           is best spent and report on impact with the support of the associated cooperative or project partners. </p>
         <p class="size16">While project targets may vary, the Yellow Seed community can dynamically track collective progress of common metrics on the <a target="_blank" href="#/impact">impact page</a>. To learn more about the design of the framework, see the
@@ -128,7 +128,7 @@
           </form>
         </div>
 
-        <hr class="top50 bottom50">
+        <hr class="mt-5 mb-5">
 
         <div class="header-lg">Cooperativa Agraria Cacaotera Choba Choba (Co-op ACCC)</div>
         <h5><i class="fa fa-map-marker" aria-hidden="true"></i> Quillabamba, Peru</h5>
@@ -161,7 +161,7 @@
         <div class="mt-5">
           <a class="btn-default" target="_blank" href="http://www.originxchange.co/origins/cacc">Learn more about this Origin »</a>
         </div>
-        <hr class="top70 bottom50">
+        <hr class="top70 mb-5">
 
         <div class="header-lg">
           Products<small> (1)</small>
