@@ -1,8 +1,8 @@
 <template>
   <a :href='uri' class='embedly-card'>
-
   </a>
 </template>
+
 <script>
 export default {
   name: 'embedly',
@@ -14,5 +14,4 @@ export default {
   mounted: function () {
   }
 };
-
 </script>

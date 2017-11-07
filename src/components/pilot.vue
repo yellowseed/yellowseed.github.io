@@ -63,9 +63,9 @@
         <h3><strong>Farmer-Driven Leadership:  Voice and Choice</strong></h3>
         <p class="size16">Yellow Seed (YS) believes the future of food depends on a paradigm shift and collectively making positive change that goes beyond current levels of compliance. Our community is therefore committed to co-design and mindfully steward a new type
           of farmer-driven community marketplace, which facilitates new methods of cultural, financial, and agricultural exchanges, in order to amplify positive social and environmental impact. </p>
-        <p class="size16">Yellow Seed promotes <a target="_blank" href="https://hand-book.yellow-seed.org/conscious-trade-101.html">Conscious Trade</a> – exchanges built upon values of transparency, agency and participation. Conscious trade means producers, distributors
+        <p class="size16">Yellow Seed promotes <a target="_blank" href="https://yellow-seed.gitbooks.io/yellow-seed-handbook-open/content/conscious-trade.html">Conscious Trade</a> – exchanges built upon values of transparency, agency and participation. Conscious trade means producers, distributors
           and consumers are empowered to shape and improve the system together, in a way that levels the playing field for farmers, preserves rainforests, and strengthens local farming communities. To test this theory, we have identified an
-          <a target="_blank" href="https://hand-book.yellow-seed.org/emerging-origin.html">Emerging Origin</a> farmer cooperative and service partners to model these trade principles and learn from the process.
+          <a target="_blank" href="https://yellow-seed.gitbooks.io/yellow-seed-handbook-open/content/emerging-origin.html">Emerging Origin</a> farmer cooperative and service partners to model these trade principles and learn from the process.
         </p>
         <p class="size16">We are delighted to partner with Cooperativa Agraria Cacaotera Choba Choba (Co-op ACCC) from the Alto Huayabamba Valley in Peru, which strongly highlights the Yellow Seed mission of Farmer Voice, Buyer Choice. The story of Co-op ACCC is unique
           while still emblematic of many farmers in Peru looking to transition away from lower-priced commodity markets to fair markets that support a better way of life – markets based on Conscious Trade.</p>
@@ -79,7 +79,7 @@
         <p class="size16">The Farmer Choice Fund is a powerful way to support farmer-directed projects – action towards social and environmental impact. For this fund, farmers will receive an additional 10% on the price they are paid for their beans, direct how money
           is best spent and report on impact with the support of the associated cooperative or project partners. </p>
         <p class="size16">While project targets may vary, the Yellow Seed community can dynamically track collective progress of common metrics on the <a href="#/impact">impact page</a>. To learn more about the design of the framework, see the
-          <a target="_blank" href="https://hand-book.yellow-seed.org/impact-a-human-based-approach.html">handbook</a>. </p>
+          <a target="_blank" href="https://yellow-seed.gitbooks.io/yellow-seed-handbook-open/content/chapter1.html">handbook</a>. </p>
         <p class="size16"><strong>Agroforestry and Environmental Resilience</strong></p>
         <p class="size16">For this pilot, the farmer members have democratically decided to spend the Farmer Choice Fund on the expansion of their existing agroforestry systems. In collaboration with an international NGO, high value timber species and fast-growing crops
           will be planted in order to support the continued regeneration and unique biodiversity of the area. This also allows farmers to protect their cacao harvests and diversify their sources of income.</p>
@@ -197,10 +197,9 @@
   </div>
 </div>
 </template>
+
 <script>
-
 import Embedly from './Embedly.vue'
-
 export default {
   components: {
     Embedly

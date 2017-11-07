@@ -1,24 +1,12 @@
 window.stories = [{
   "id": 1,
-  "uri": "https://medium.com/@48726b1771e4/441133a976bf"
-}, {
-  "id": 2,
-  "uri": "http://www.goldstandard.org/blog-item/forestfinest-chocolate-sustainable-indulgence"
-}, {
-  "id": 3,
-  "uri": "https://medium.com/@48726b1771e4/441133a976bf"
-}, {
-  "id": 4,
-  "uri": "https://youtu.be/qYuGP_0QjMg"
-}, {
-  "id": 5,
-  "uri": "https://youtu.be/qYuGP_0QjMg"
-}, {
-  "id": 6,
   "uri": "https://medium.com/@yellow_seed/meet-cooperativa-agraria-cacaotera-choba-choba-f4ec24599ee6"
 }, {
-  "id": 7,
-  "uri": "http://www.choicehumanitarian.org/direct_sourcing"
+  "id": 2,
+  "uri": "https://vimeo.com/229867830"
+}, {
+  "id": 3,
+  "uri": "https://www.youtube.com/user/PurProjet"
 }];
 
 window.origins = [{

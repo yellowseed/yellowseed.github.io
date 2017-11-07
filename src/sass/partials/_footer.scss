@@ -37,6 +37,7 @@
     #mce-FNAME {
       background: transparent;
       border: 1px solid #cccccc;
+      border-radius: 0;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       padding: 5px;
@@ -45,6 +46,7 @@
     #mce-LNAME {
       background: transparent;
       border: 1px solid #cccccc;
+      border-radius: 0;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       padding: 5px;
@@ -53,6 +55,7 @@
     #mce-EMAIL {
       background: transparent;
       border: 1px solid #cccccc;
+      border-radius: 0;
       font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       margin-top: 7px;
@@ -61,13 +64,4 @@
       width: 100%;
     }
   }
-}
-.mc-field-group{
-  padding:4px;
-  margin-bottom: 3px;
-}
-.mc-field-group input{
-  padding:2px;
-  border:none;
-  border-radius:5px;
 }
