@@ -102,12 +102,16 @@
 
          <div class="row mt-4 staff-member">
           <div class="col-sm-3">
+<<<<<<< HEAD:src/components/Team.vue
             <img src="../assets//images/staff_paul.jpg">
+=======
+            <img src="../../images/staff-paul.jpg">
+>>>>>>> c7777327d56f104a91b3ec5919cfa4fac9753ad0:src/components/pages/team.html
           </div>
           <div class="col-sm-9">
             <h3>Paul Wand</h3>
-            <h4>Developer</h4>
-            <p>Paul is a prolific app creator fluent in Unity3d, Virtual Reality, Vue.js, Angular, Javascript, Rails, Node and Swift. He holds a B.S. in Computer Science from Grand Valley State University in Michigan. He now lives in sedona .</p>
+            <h4>Engineer</h4>
+            <p>Paul is a prolific app creator fluent in Unity3d, Virtual Reality, Vue.js, Angular, Javascript, Rails, Node and Swift. He holds a B.S. in Computer Science from Grand Valley State University in Michigan, and now lives in Sedona, Arizona.</p>
             <p>
               <a href="http://instagram.com/17th_dimension" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -115,27 +119,41 @@
                   <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
-              <a href="https://www.youtube.com/channel/UCSNAxn-tpuectKN6674IpXw" target="_blank">
+              <!-- <a href="https://www.youtube.com/channel/UCSNAxn-tpuectKN6674IpXw" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-film fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
+              </a> -->
             </p>
           </div>
         </div>
 
         <div class="row mt-4 staff-member">
           <div class="col-sm-3">
+<<<<<<< HEAD:src/components/Team.vue
             <img src="../assets//images/staff_rachel.jpg">
+=======
+            <img src="../../images/staff-rachel.jpg">
+>>>>>>> c7777327d56f104a91b3ec5919cfa4fac9753ad0:src/components/pages/team.html
           </div>
           <div class="col-sm-9">
             <h3>Rachel Logie</h3>
-            <h4>FULL-STACK DEVELOPER</h4>
-            <p>Rachel likes cats, traveling, and dancing, and aspires to be a crazy cat lady when she gets older. When she isn't covered in cats, she enjoys writing code and making fantastic web apps.   </p>
+            <h4>Full-stack Engineer</h4>
+            <p>Rachel is a full-stack RoR developer who enjoys writing clean code and making fantastic web apps. She is passionate about eating healthy, organic food and is excited to be using her skills to contribute to a shift in the global food system. Rachel enjoys traveling and dancing, and aspires to be a crazy cat lady when she gets older.</p>
             <p>
-              <a target="_blank" class="linkedin_icon_yellow" href="https://www.linkedin.com/in/rachel-logie-40021993"></a>
-              <a target="_blank" class="personalwebsite_icon_yellow" href="http://rachellogie.github.io/"></a>
+              <a href="https://www.linkedin.com/in/rachel-logie-40021993" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="http://rachellogie.github.io/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
             </p>
           </div>
         </div>

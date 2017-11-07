@@ -105,7 +105,7 @@
         </div>
       </div>
       <div class="row mt-2 btn-wrapper">
-        <a class="btn-default mr-2 mt-3" target="_blank" href="#/impact">see the impact dashboard</a>
+        <a class="btn-default mr-2 mt-3" href="#/impact">see the impact dashboard</a>
         <a class="btn-yellow-outline btn-default ml-2 mt-3" target="_blank" href="https://handbook.yellow-seed.org/impact-a-human-based-approach.html">learn more</a>
       </div>
     </div>

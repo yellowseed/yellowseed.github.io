@@ -1,6 +1,6 @@
 <template>
 
-<b-navbar navbar toggleable="md" type="light" variant="light">
+<b-navbar navbar toggleable="md" type="light" variant="light" id="nav">
 
   <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
@@ -17,7 +17,7 @@
       <b-nav-item right href="#/pilot">Farmer Fund</b-nav-item>
       <b-nav-item right href="#/team">Team</b-nav-item>
       <b-nav-item right href="#/contact">Contact Us</b-nav-item>
-      <b-nav-item right href="#/donate">Donate</b-nav-item>
+      <b-nav-item right class="nav-donate" href="#/donate">Donate</b-nav-item>
 
     </b-nav>
 
