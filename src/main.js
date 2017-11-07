@@ -3,8 +3,13 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import VueAwesome from 'vue-awesome/icons'
-import Impact from './components/impact.vue'
-import Pilot from './components/pilot.vue'
+import Pilot from './components/Pilot.vue'
+import Impact from './components/Impact.vue'
+import Donate from './components/Donate.vue'
+import Contact from './components/Contact.vue'
+import Welcome from './components/Welcome.vue'
+import Team from './components/Team.vue'
+
 var Icon = require('vue-awesome')
 
 
@@ -13,14 +18,8 @@ Vue.use(BootstrapVue);
 Vue.use(VueRouter);
 
 
-// globally (in your main .js file)
-const Donate = { template: require('./components/pages/donate.html') }
-const Team = { template: require('./components/pages/team.html') }
-const Contact = { template: require('./components/pages/contact.html') }
-const Home = { template: require('./components/pages/index.html') }
-
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: Welcome },
   { path: '/impact', component: Impact },
   { path: '/donate', component: Donate },
   { path: '/pilot', component: Pilot },
@@ -34,10 +33,9 @@ const router = new VueRouter({
   }
 })
 
-require('./sass/style.scss');
-require('./index.html');
-require('./Components/mapStyle.js');
-require('./Components/Database.js');
+require('./assets/scss/style.scss');
+require('./helpers/mapStyle.js');
+require('./Services/Database.js');
 
 
 new Vue({

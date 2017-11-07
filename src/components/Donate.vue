@@ -1,3 +1,4 @@
+<template>
 <div id='donate'>
 
   <div class="donate-banner banner">
@@ -55,7 +56,7 @@
   <div class="container donate-support">
     <div class="row mt-5 mb-5">
       <div class="col-12 col-sm-5 col-lg-4 offset-lg-1">
-        <img src="../../images/donate-pilot.jpg" class="pilot-img"></img>
+        <img src="../assets/images/donate-pilot.jpg" class="pilot-img"></img>
         <p class="pilot-caption">Learn more about the <a href="#/farmer">Pilot of the “Farmer Choice Fund”</a> supporting farmer-directed impact projects.</p>
       </div>
       <div class="col-12 col-sm-7 col-lg-6">
@@ -97,7 +98,7 @@
         <p class="mt-3">Community voices, participation and support which drives the design of our platform are just as important as financial contributions. Want to learn more? <a href="#/contact">Contact us</a> directly.</p>
       </div>
       <div class="col-12 col-md-7 col-lg-5 cacao-beans-container">
-        <img src="../../images/cacao-beans-pods.png" class="cacao-beans-pods img-responsive center-block"></img>
+        <img src="../assets/images/cacao-beans-pods.png" class="cacao-beans-pods img-responsive center-block"></img>
       </div>
     </div>
   </div>
@@ -110,3 +111,4 @@
       </div>
     </div>
 </div>
+</template>

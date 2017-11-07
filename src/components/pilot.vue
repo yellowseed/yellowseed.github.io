@@ -10,10 +10,10 @@
           </h3>
         </div>
         <div class="col-2 col-sm-2 col-md-1 rightpadd0">
-          <img class="img-fluid responsive-img impact-icon" src="../images/icon-increase-wages.svg" alt="Increase wages icon">
+          <img class="img-fluid responsive-img impact-icon" src="../assets/images/icon-increase-wages.svg" alt="Increase wages icon">
         </div>
         <div class="col-2 col-sm-2 col-md-1 rightpadd0">
-          <img class="img-fluid responsive-img impact-icon" src="../images/icon-access-services.svg" alt="Access services icon ">
+          <img class="img-fluid responsive-img impact-icon" src="../assets/images/icon-access-services.svg" alt="Access services icon ">
         </div>
 
       </div>
@@ -85,10 +85,10 @@
           will be planted in order to support the continued regeneration and unique biodiversity of the area. This also allows farmers to protect their cacao harvests and diversify their sources of income.</p>
         <div class="row">
           <div class="col-md-6 mb-2">
-            <img src="../images/env-benefits1.jpg" class='img-fluid responsive-img' alt='Jimmy Gonzales planting a cacao tree'></img>
+            <img src="../assets/images/env-benefits1.jpg" class='img-fluid responsive-img' alt='Jimmy Gonzales planting a cacao tree'></img>
           </div>
           <div class="col-md-6 mb-2">
-            <img src="../images/env-benefits2.jpg" class='img-fluid responsive-img' alt='Old growth rainforest'></img>
+            <img src="../assets/images/env-benefits2.jpg" class='img-fluid responsive-img' alt='Old growth rainforest'></img>
           </div>
         </div>
         <p class="caption">Jimmy Gonzales Isminio and Co-op ACCC are committed to sustainable agroforestry practices and protecting their old growth forests.</p>

@@ -1,3 +1,4 @@
+<template>
 <div id="homepage">
 
 <div class="homepage-banner banner">
@@ -10,7 +11,7 @@
     <div class="oxc-link">
       <p>Looking to sell or buy Conscious Cacao? Check out Yellow Seed’s marketplace partner:</p>
       <a href="http://www.originxchange.co" target="_blank">
-        <img src='../../images/oxc-logo.svg' alt="Origin X Change logo"></img>
+        <img src='../assets/images/oxc-logo.svg' alt="Origin X Change logo"></img>
       </a>
     </div>
   </div>
@@ -25,19 +26,19 @@
       <p class="mt-3">We are building a global Conscious Trade movement, where markets value farmers and their care of the land, and buyers know they can make a positive impact. Our work will:</p>
       <div class="row mt-4">
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/icon-track-impact.svg" alt="Impact dashboard made up of different types of graphs icon"></img>
+          <img class="impact-icon" src="../assets/images/icon-track-impact.svg" alt="Impact dashboard made up of different types of graphs icon"></img>
           <h4>Track impact</h4>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/icon-support-projects.svg" alt="Farmers voting on farmer directed projects icon"></img>
+          <img class="impact-icon" src="../assets/images/icon-support-projects.svg" alt="Farmers voting on farmer directed projects icon"></img>
           <h4>support farmer-driven impact projects</h4>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/icon-stories.svg" alt="Story book icon"></img>
+          <img class="impact-icon" src="../assets/images/icon-stories.svg" alt="Story book icon"></img>
           <h4>educate, engage, and tell stories</h4>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/icon-data-accessible.svg" alt="Data accessibility icon"></img>
+          <img class="impact-icon" src="../assets/images/icon-data-accessible.svg" alt="Data accessibility icon"></img>
           <h4>make data accessible</h4>
         </div>
       </div>
@@ -58,7 +59,7 @@
   <div class="container">
     <div class="row ">
       <div class="col-12">
-        <img src="../../images/homepage-oxc-website.jpg" class="img-fluid responsive-img top60" alt='Origin X Change website screenshot'></img>
+        <img src="../assets/images/homepage-oxc-website.jpg" class="img-fluid responsive-img top60" alt='Origin X Change website screenshot'></img>
         <h2>Introducing Origin X Change: Yellow Seed’s marketplace partner </h2>
         <p class="mt-2">Origin X Change is the Conscious Cacao Marketplace built by Yellow Seed. It is a community-driven marketplace for cacao growers, service intermediaries and buyers to connect and trade with one another. Deeply rooted in the exchange of trust, Origin X Change provides a high level of transparency for buyers, and the ability to find products that contribute to the impact they care about.</p>
         <p>Yellow Seed has partnered with Origin X Change to operate the marketplace, so it can focus on expanding the global Conscious Trade movement.</p>
@@ -83,22 +84,22 @@
       </div>
       <div class="row mt-4">
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/unique-varietals-icons.svg" alt="Unique varietals icons"></img>
+          <img class="impact-icon" src="../assets/images/unique-varietals-icons.svg" alt="Unique varietals icons"></img>
           <h3>68</h3>
           <h5>unique varietals cultivated by the origins listed on origin x change</h5>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/warehouse-boxes-icon.svg" alt="Warehouse boxes icon"></img>
+          <img class="impact-icon" src="../assets/images/warehouse-boxes-icon.svg" alt="Warehouse boxes icon"></img>
           <h3>10,965</h3>
           <h5>metric tons of cacao produced on average annually</h5>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/forest-conservation-icon.svg" alt="Forest conservation icon"></img>
+          <img class="impact-icon" src="../assets/images/forest-conservation-icon.svg" alt="Forest conservation icon"></img>
           <h3>11,184</h3>
           <h5>ha. of forest protected by the origins of Yellow seed</h5>
         </div>
         <div class="col-md-3">
-          <img class="impact-icon" src="../../images/food-security-icon.svg" alt="Food security icon "></img>
+          <img class="impact-icon" src="../assets/images/food-security-icon.svg" alt="Food security icon "></img>
           <h3>1,387</h3>
           <h5>hectares of other crops provides food security at origin</h5>
         </div>
@@ -142,13 +143,13 @@
         <p class="mt-3 mb-5">Conscious trade is fundamentally about people and relationships. We create space for discussion, educate the public on the benefits of conscious trade and advocate for greater global participation. By making stories visible, we bring awareness to the good work being done and inspire the continued commitment to doing better.</p>
         <div class="row">
           <div class="col-md-6 mb-5">
-            <img src="../../images/homepage-collaborative-trade.jpg" class="img-fluid responsive-img mb-3" alt="Picture of small group working together during Collaborative Trade Accelerator"></img>
+            <img src="../assets/images/homepage-collaborative-trade.jpg" class="img-fluid responsive-img mb-3" alt="Picture of small group working together during Collaborative Trade Accelerator"></img>
             <a href="http://blog.yellow-seed.org/category/change-accelerator/" class="header-links" target="_blank">The Collaborative Trade Accelerator</a>
             <p class="small-paragraph">The From the Ground Up Change Accelerator The Impact Hub Berkeley’s “From the Ground Up” (FtGU) is a four part, year-long program that brings together multi-stakeholder organizations working in sustainable food and agriculture to collaborate on joint initiatives.</p>
             <a class="btn-small btn-default" href="http://blog.yellow-seed.org/category/change-accelerator/" target="_blank" >learn more</a>
           </div>
           <div class="col-md-6">
-            <img src="../../images/homepage-fiji.jpg" class="img-fluid responsive-img mb-3" alt="Two Fijian women from Cacao Fiji with a cacao tree"></img>
+            <img src="../assets/images/homepage-fiji.jpg" class="img-fluid responsive-img mb-3" alt="Two Fijian women from Cacao Fiji with a cacao tree"></img>
             <a href="https://medium.com/conscious-cacao-stories" class="header-links" target="_blank">Conscious Cacao Stories on Medium</a>
             <p class="small-paragraph">Many brilliant people in our food system are fostering equity, ecological conservation and community resilience, while their stories go unheard. By making these stories visible, we aim to elevate awareness of the good work being done and inspire the commitment to doing better.</p>
             <a class="btn-small btn-default" href="https://medium.com/conscious-cacao-stories" target="_blank" >learn more</a>
@@ -179,13 +180,13 @@
   <h2>Our Partners</h2>
   <div class="row">
     <div class="col-md-4 mt-5">
-      <img class="mx-auto d-block" src="../../images/partner-logo-01.jpg" alt="FHIA logo">
+      <img class="mx-auto d-block" src="../assets/images/partner-logo-01.jpg" alt="FHIA logo">
     </div>
     <div class="col-md-4 mt-5">
-      <img class="mx-auto d-block" src="../../images/partner-logo-02.jpg" alt="Cholaca logo">
+      <img class="mx-auto d-block" src="../assets/images/partner-logo-02.jpg" alt="Cholaca logo">
     </div>
     <div class="col-md-4 mt-5">
-      <img class="mx-auto d-block" src="../../images/partner-logo-03.jpg" alt="FCCI logo">
+      <img class="mx-auto d-block" src="../assets/images/partner-logo-03.jpg" alt="FCCI logo">
     </div>
   </div>
   <div class="row top100"></div>
@@ -205,3 +206,4 @@
 </div>
 
 </div>
+</template>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <navigation :brand="{title:'yellowseed',image:'../images/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'}" :items="[{title:'Impact'}, {title:'Farmer'},{title:'Team'},{title:'Contact'},{title:'Donate'}]" />
+    <navigation :brand="{title:'yellowseed',image:'../assets/images/logo-a3968b6dfba1af1e59e3277d566e892288d95f2d98abff2b0dcdf921976ed0f5.svg'}" :items="[{title:'Impact'}, {title:'Farmer'},{title:'Team'},{title:'Contact'},{title:'Donate'}]" />
     <router-view></router-view>
     <foot-note>
     </foot-note>
@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import MessageToggle from '@/components/MessageToggle.vue'
 import Navigation from '@/components/Navigation.vue'
 import FootNote from '@/components/FootNote.vue'
 import GoogleMap from '@/components/GoogleMap.vue'
@@ -16,7 +15,6 @@ import Embedly from '@/components/Embedly.vue'
 
 export default {
   components: {
-    MessageToggle,
     Navigation,
     FootNote,
     GoogleMap,

@@ -1,3 +1,4 @@
+<template>
 <div id="contact">
 
   <div class="contact-banner banner">
@@ -38,3 +39,4 @@
   </div>
 
 </div>
+</template>

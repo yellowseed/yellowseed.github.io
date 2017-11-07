@@ -31,15 +31,15 @@
     </google-map>
 </div>
   <div class="staggered-images mb-5">
-    <img class="impact-img1" src="../images/Smiling-farmer.jpg" alt="Smiling farmer">
-    <img class="impact-img2" src="../images/farmers-walking.jpg" alt="Farmers walking">
-    <img class="impact-img3 drop-shadow hidden-xs" src="../images/Hands-cacao.jpg" alt="Hands in cacao">
+    <img class="impact-img1" src="../assets/images/Smiling-farmer.jpg" alt="Smiling farmer">
+    <img class="impact-img2" src="../assets/images/farmers-walking.jpg" alt="Farmers walking">
+    <img class="impact-img3 drop-shadow hidden-xs" src="../assets/images/Hands-cacao.jpg" alt="Hands in cacao">
   </div>
 
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-8 col-sm-offset-1 mb-4">
-        <img class="impact-area-icon" src="../images/equitable-trade-icon.svg" alt="Equitable trade icon ">
+        <img class="impact-area-icon" src="../assets/images/equitable-trade-icon.svg" alt="Equitable trade icon ">
         <div class="impact-goals">
           <span class="skinny"> Impact Goal Area:</span><br class="d-block d-sm-none"><span class="yellow heavier"> Improved Livelihood</span>
         </div>
@@ -54,17 +54,17 @@
     </div>
     <div class='row'>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/number-origins-icon.svg" alt="Number origins icon ">
+        <img class="impact-icon" src="../assets/images/number-origins-icon.svg" alt="Number origins icon ">
         <h3>33 origins</h3>
         <h6>Represented on the Yellow Seed Platform</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/warehouse-boxes-icon.svg" alt="Warehouse boxes icon ">
+        <img class="impact-icon" src="../assets/images/warehouse-boxes-icon.svg" alt="Warehouse boxes icon ">
         <h3>11,148 metric tons of cacao</h3>
         <h6>Average annual total produced by the origins on yellow seed</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/money-up-icon.svg" alt="Money up icon ">
+        <img class="impact-icon" src="../assets/images/money-up-icon.svg" alt="Money up icon ">
         <h3>$6,622</h3>
         <h6>Average price per metric ton for cacao on yellow seed</h6>
       </div>
@@ -72,15 +72,15 @@
   </div>
 
   <div class="staggered-images top50">
-    <img class="impact-img2" src="../images/girl-school.jpg" alt="Girl school ">
-    <img class="impact-img4" src="../images/farmer-meeting.jpg" alt="Farmer meeting ">
-    <img class="impact-img5 drop-shadow hidden-xs" src="../images/thumbs-up.jpg" alt="Thumbs up ">
+    <img class="impact-img2" src="../assets/images/girl-school.jpg" alt="Girl school ">
+    <img class="impact-img4" src="../assets/images/farmer-meeting.jpg" alt="Farmer meeting ">
+    <img class="impact-img5 drop-shadow hidden-xs" src="../assets/images/thumbs-up.jpg" alt="Thumbs up ">
   </div>
 
   <div class="container">
     <div class="row top50 mb-4">
       <div class="col-12 col-sm-8 offset-sm-3">
-        <img class="impact-area-icon" src="../images/thriving-communities-icon.svg" alt="Thriving communities icon">
+        <img class="impact-area-icon" src="../assets/images/thriving-communities-icon.svg" alt="Thriving communities icon">
         <div class="impact-goals">
           <span class="skinny">Impact Goal Area:</span><br class="d-block d-sm-none"><span class="blue heavier"> Thriving Resilient Communities</span>
         </div>
@@ -92,17 +92,17 @@
     </div>
     <div class='row'>
       <div class="col-12 col-sm-3 offset-sm-3 mb-3">
-        <img class="impact-icon" src="../images/female-percent-icon.svg" alt="Female percent icon ">
+        <img class="impact-icon" src="../assets/images/female-percent-icon.svg" alt="Female percent icon ">
         <h3>27% female</h3>
         <h6>farmers &amp; coop members</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/female-leaders-icon.svg" alt="Female leaders icon ">
+        <img class="impact-icon" src="../assets/images/female-leaders-icon.svg" alt="Female leaders icon ">
         <h3>33% women</h3>
         <h6>in leadership positions</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/food-security-icon.svg" alt="Food security icon ">
+        <img class="impact-icon" src="../assets/images/food-security-icon.svg" alt="Food security icon ">
         <h3>1,387 hectares</h3>
         <h6>of other crop areas provides food security at origin</h6>
       </div>
@@ -110,15 +110,15 @@
   </div>
 
   <div class="staggered-images top50">
-    <img class="impact-img1" src="../images/ocean-forest.jpg" alt="Ocean forest">
-    <img class="impact-img2" src="../images/parrot.jpg" alt="Parrot">
-    <img class="impact-img3 drop-shadow hidden-xs" src="../images/monkey.jpg" alt="Monkey">
+    <img class="impact-img1" src="../assets/images/ocean-forest.jpg" alt="Ocean forest">
+    <img class="impact-img2" src="../assets/images/parrot.jpg" alt="Parrot">
+    <img class="impact-img3 drop-shadow hidden-xs" src="../assets/images/monkey.jpg" alt="Monkey">
   </div>
 
   <div class="container">
     <div class="row mb-4">
       <div class="col-12 col-sm-8 col-sm-offset-1 col-md-offset-1">
-        <img class="impact-area-icon" src="../images/healthy-environment-icon.svg" alt="Healthy environment icon">
+        <img class="impact-area-icon" src="../assets/images/healthy-environment-icon.svg" alt="Healthy environment icon">
         <div class="impact-goals">
           <span class="skinny">Impact Goal Area:</span><br class="d-block d-sm-none"><span class="green heavier"> Healthy Environment</span>
         </div>
@@ -132,17 +132,17 @@
     </div>
     <div class='row'>
       <div class="col-12 col-sm-3 col-sm-offset-1 mb-3">
-        <img class="impact-icon" src="../images/unique-varietals-icons.svg" alt="Unique varietals icons ">
+        <img class="impact-icon" src="../assets/images/unique-varietals-icons.svg" alt="Unique varietals icons ">
         <h3>68 unique varietals</h3>
         <h6>Cultivated by the origins on Yellow Seed</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/forest-conservation-icon.svg" alt="Forest conservation icon ">
+        <img class="impact-icon" src="../assets/images/forest-conservation-icon.svg" alt="Forest conservation icon ">
         <h3>11,285 hectares of forest protected</h3>
         <h6>By the origins on Yellow Seed</h6>
       </div>
       <div class="col-12 col-sm-3 mb-3">
-        <img class="impact-icon" src="../images/emissions-down-icon.svg" alt="Emissions down icon ">
+        <img class="impact-icon" src="../assets/images/emissions-down-icon.svg" alt="Emissions down icon ">
         <h3>1,230,065 metric tons of CO2</h3>
         <h6>Locked in because of origin's forest conservation and agroforestry efforts</h6>
       </div>
