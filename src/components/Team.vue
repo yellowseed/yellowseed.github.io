@@ -15,7 +15,7 @@
         <p class="mb-5">Yellow Seed is a non-profit, impact driven organization. We act as stewards, connectors and facilitators to enable the emergence of conscious trade. Yellow Seed is inspired by the desire to create tangible and successful models for how humans can collaborate to become more adaptable, diverse and resilient.</p>
         <div class="row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/staff-nancy.jpg">
+            <img src="../assets/images/staff-nancy.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Nancy Zamierowski, MBA</h3>
@@ -46,7 +46,7 @@
 
         <div class="row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/staff-rowan.jpg">
+            <img src="../assets/images/staff-rowan.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Rowan Oloman, MBA </h3>
@@ -71,7 +71,7 @@
 
         <div class="row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/staff-erika.jpg">
+            <img src="../assets/images/staff-erika.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Erika Logie</h3>
@@ -102,11 +102,7 @@
 
          <div class="row mt-4 staff-member">
           <div class="col-sm-3">
-<<<<<<< HEAD:src/components/Team.vue
-            <img src="../assets//images/staff_paul.jpg">
-=======
-            <img src="../../images/staff-paul.jpg">
->>>>>>> c7777327d56f104a91b3ec5919cfa4fac9753ad0:src/components/pages/team.html
+            <img src="../assets/images/staff_paul.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Paul Wand</h3>
@@ -131,11 +127,7 @@
 
         <div class="row mt-4 staff-member">
           <div class="col-sm-3">
-<<<<<<< HEAD:src/components/Team.vue
-            <img src="../assets//images/staff_rachel.jpg">
-=======
-            <img src="../../images/staff-rachel.jpg">
->>>>>>> c7777327d56f104a91b3ec5919cfa4fac9753ad0:src/components/pages/team.html
+            <img src="../assets/images/staff_rachel.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Rachel Logie</h3>
@@ -166,7 +158,7 @@
 
         <div class="top20 row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/advisors-greg.jpg">
+            <img src="../assets/images/advisors-greg.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Greg D'alesandre</h3>
@@ -176,7 +168,7 @@
         </div>
         <div class="top20 row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/advisors-joel.jpg">
+            <img src="../assets/images/advisors-joel.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Joel Solomon</h3>
@@ -187,7 +179,7 @@
         </div>
         <div class="top20 row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/advisors-amy.jpg">
+            <img src="../assets/images/advisors-amy.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Amy Hartzler</h3>
@@ -197,7 +189,7 @@
         </div>
         <div class="top20 row staff-member">
           <div class="col-sm-3">
-            <img src="../assets//images/advisors-branden.jpg">
+            <img src="../assets/images/advisors-branden.jpg">
           </div>
           <div class="col-sm-9">
             <h3>Branden Barber</h3>
