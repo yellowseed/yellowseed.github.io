@@ -15,10 +15,7 @@
         <div class="col-2 col-sm-2 col-md-1 rightpadd0">
           <img class="img-fluid responsive-img impact-icon" src="../images/icon-access-services.svg" alt="Access services icon ">
         </div>
-
       </div>
-
-
       <div class="row">
         <div class="col-12 col-lg-7 mt-4">
           <div class="embed-responsive embed-responsive-16by9">
