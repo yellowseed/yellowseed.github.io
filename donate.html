@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Donate to Yellow Seed</title>
+  </head>
+  <body>
+<a class="coinbase-widget"
+       id="coinbase_widget"
+       data-address=""
+       data-amount=""
+       data-code="17719135-8d6e-5e1b-970e-b37d70f06c99"
+       data-currency="USD"
+       data-crypto_currency="LTC"
+       href="">Donate with LTC</a>
+    
+    <script type='text/javascript' id='coinbase_widget_loader' class='coinbase-widget-async-loader'>
+      document.currentScript.src ='';
+      (function() {
+        function asyncLoad() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          var theUrl = 'https://buy.coinbase.com/static/widget.js';
+          s.src = theUrl+ (theUrl.indexOf("?") >= 0 ? '&' : '?') + 'ref=' + encodeURIComponent(window.location.href);
+          var embedder = document.getElementById('coinbase_widget_loader');
+          embedder.parentNode.insertBefore(s, embedder);
+        }
+        if (window.attachEvent) {
+          window.attachEvent('onload', asyncLoad);
+        } else {
+          window.addEventListener('load', asyncLoad, false);
+        }
+      })();
+    </script>
+  </body>
+</html>
