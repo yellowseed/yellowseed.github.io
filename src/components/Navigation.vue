@@ -13,9 +13,6 @@
     <!-- Right aligned nav items -->
     <b-nav is-nav-bar class="ml-auto">
 
-      <b-nav-item right href="#/impact">Impact</b-nav-item>
-      <b-nav-item right href="#/pilot">Farmer Fund</b-nav-item>
-      <b-nav-item right href="#/team">Team</b-nav-item>
       <b-nav-item right href="#/contact">Contact Us</b-nav-item>
       <b-nav-item right class="nav-donate" href="#/donate">Donate</b-nav-item>
 
