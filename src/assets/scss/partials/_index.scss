@@ -1,5 +1,10 @@
 #homepage {
-
+  #home-email{
+    border-radius: 4px;
+  }
+  .home-email-label{
+    color:white;
+  }
   p {
     text-align: center;
   }
@@ -18,11 +23,8 @@
 
   .homepage-banner {
     background: url('../../assets/images/homepage-banner.jpg') no-repeat center;
-    height: 700px;
-    @include mq($from: tablet) {
-      height: 650px;
-    }
-
+    height: 800px!important;
+   
     h1 {
       padding-top: 50px;
       @include mq($from: tablet) {
