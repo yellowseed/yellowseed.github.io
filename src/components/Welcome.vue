@@ -7,7 +7,7 @@
   <div class="col-xl-8 offset-xl-2">
     <p class='center'>Yellow Seed has closed our beta platform and we are evolving based on all we have learned. Sign up for our email list below to keep updated.</p>
     <div class="mt-4">
-      <label class='home-email-label'>✉<input  v-model='email' placeholder="email" type="email" name="email" id="home-email" required="required"></label>
+      <label class='home-email-label'><input  v-model='email' placeholder="email" type="email" name="email" id="home-email" required="required"></label>
         <button class="btn-default mt-3" v-on:click="subscribe">subscribe</button>
        </div>
   </div>
