@@ -14,7 +14,6 @@
     <b-nav is-nav-bar class="ml-auto">
 
       <b-nav-item right href="#/contact">Contact Us</b-nav-item>
-      <b-nav-item right class="nav-donate" href="#/donate">Donate</b-nav-item>
 
     </b-nav>
 
