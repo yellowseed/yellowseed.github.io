@@ -9,7 +9,6 @@
         <div class="col-12 col-sm-6 col-lg-3 mt-5">
           <h6>Learn more</h6>
           <a href="#/contact" class="footer-link">Contact Us</a>
-          <a href="#/donate" class="footer-link">Donate</a>
           <a href="https://medium.com/conscious-cacao-stories" class="footer-link" target="_blank">Conscious Cacao Stories</a>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 mt-5">
