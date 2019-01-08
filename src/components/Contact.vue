@@ -24,11 +24,6 @@
       <div class="col-md-4 mt-5 contact-us-sidebar">
         <h4>CONTACT DETAILS</h4>
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-map-marker"></i>Yellow Seed
-            <br/>c/o Social and Environmental Entrepreneurs (SEE)
-            <br />23532 Calabasas Road Suite A
-            <br/>Calabasas, CA 91302
-          </li>
           <li><i class="fa-li fa fa-phone"></i> 818-225-9150</li>
           <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:hello@yellow-seed.org">hello [at] yellow-seed.org</a></li>
           <li><i class="fa-li fa fa-twitter"></i> <a href="https://twitter.com/cocreativecacao">@cocreativecacao</a></li>
